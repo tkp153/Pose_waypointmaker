@@ -8,6 +8,7 @@ setup.py
 ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/requires.txt
 ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/top_level.txt
 ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/zip-safe
+launch/pifpaf.launch.py
 resource/ros2_pifpaf
 ros2_pifpaf/__init__.py
 ros2_pifpaf/check.py

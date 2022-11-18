@@ -3,7 +3,7 @@ from rclpy.node import Node
 import cv2
 from sensor_msgs.msg import Image,CameraInfo
 from cv_bridge import CvBridge
-from openpifpaf_ros2_msgs.msg import Poses,Pose
+from openpifpaf_ros2_msgs_v2.msg import Poses,Pose
 from message_filters import ApproximateTimeSynchronizer,Subscriber
 import numpy as np
 

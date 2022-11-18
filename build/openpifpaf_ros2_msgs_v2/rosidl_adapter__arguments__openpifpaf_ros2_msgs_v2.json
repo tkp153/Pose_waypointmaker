@@ -1,0 +1,12 @@
+{
+  "package_name": "openpifpaf_ros2_msgs_v2",
+  "non_idl_tuples": [
+    "/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs_v2:msg/Pose.msg",
+    "/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs_v2:msg/Poses.msg",
+    "/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs_v2:msg/Person.msg",
+    "/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs_v2:msg/Pose3D.msg",
+    "/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs_v2:msg/Pose3DArray.msg",
+    "/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs_v2:msg/Transform.msg",
+    "/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs_v2:msg/Transforms.msg"
+  ]
+}

@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from openpifpaf_ros2_msgs_v2/msg/Transforms.msg
+// generated code does not contain a copyright notice
+
+#include "openpifpaf_ros2_msgs_v2/msg/Transform.idl"
+
+module openpifpaf_ros2_msgs_v2 {
+  module msg {
+    struct Transforms {
+      sequence<openpifpaf_ros2_msgs_v2::msg::Transform> transforms;
+    };
+  };
+};

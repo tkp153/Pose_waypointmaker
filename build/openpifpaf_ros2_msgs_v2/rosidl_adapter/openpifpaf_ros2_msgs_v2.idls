@@ -1,0 +1,7 @@
+/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2/rosidl_adapter/openpifpaf_ros2_msgs_v2:msg/Pose.idl
+/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2/rosidl_adapter/openpifpaf_ros2_msgs_v2:msg/Poses.idl
+/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2/rosidl_adapter/openpifpaf_ros2_msgs_v2:msg/Person.idl
+/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2/rosidl_adapter/openpifpaf_ros2_msgs_v2:msg/Pose3D.idl
+/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2/rosidl_adapter/openpifpaf_ros2_msgs_v2:msg/Pose3DArray.idl
+/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2/rosidl_adapter/openpifpaf_ros2_msgs_v2:msg/Transform.idl
+/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2/rosidl_adapter/openpifpaf_ros2_msgs_v2:msg/Transforms.idl

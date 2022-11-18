@@ -6,7 +6,7 @@ from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 from openpifpaf.predictor import Predictor
 #sys.path.append('../openpifpaf_ros2_msgs/msg')
-from openpifpaf_ros2_msgs.msg import Poses,Pose
+from openpifpaf_ros2_msgs_v2.msg import Poses,Pose
 
 class OpenPifPaf_ros2_node(Node):
     def __init__(self):

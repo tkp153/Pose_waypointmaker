@@ -1,0 +1,4 @@
+source;share/openpifpaf_ros2_msgs_v2/local_setup.bash
+source;share/openpifpaf_ros2_msgs_v2/local_setup.dsv
+source;share/openpifpaf_ros2_msgs_v2/local_setup.sh
+source;share/openpifpaf_ros2_msgs_v2/local_setup.zsh

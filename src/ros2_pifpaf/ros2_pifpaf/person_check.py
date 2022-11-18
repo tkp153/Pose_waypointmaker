@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 import numpy as np
-from openpifpaf_ros2_msgs.msg import Poses,Transforms,Transfrom
+from openpifpaf_ros2_msgs_v2.msg import Poses,Transforms,Transform
 import time
 '''
 <Memo>
@@ -12,6 +12,7 @@ import time
 class person_checker(Node):
     def __init__(self):
         super().__init__("person_checker")
+        
         
         #QOSProfile 関連設定
         video_qos = rclpy.qos.QoSProfile(depth = 10)
@@ -31,11 +32,11 @@ class person_checker(Node):
         #　人の重心座標（すべて）
         Output0 = Transforms()
         #挙手された人の重心座標
-        Output2 = Transfrom()
+        Output2 = Transform()
         
         for person in data.poses:
             
-            Output1 = Transfrom()
+            Output1 = Transform()
         
             keypoints = np.array(person.keypoints).reshape(-1,4)
             keypoints = keypoints[keypoints[:, 3] != 0]
@@ -45,17 +46,16 @@ class person_checker(Node):
             key_num = 0
             
             #重心部分の変数初期化
-            x_sum = 0
-            y_sum = 0
-            z_sum = 0
-            count = 0
+            x_sum_list= []
+            y_sum_list= []
+            z_sum_list= []
+            key_points_count = 0
             
             #挙手部分の変数初期化
             l_num = 0
             r_num = 0
             L_Raise_Hand = False
             R_Raise_Hand = False
-            
             #一人の処理↓
             for k in keypoints:
                 
@@ -63,26 +63,30 @@ class person_checker(Node):
                 #座標抽出
                 x_pos,y_pos,z_pos = float_value
                 
-                #重心計算エリア
-                if (key_num == 5 or key_num == 6 or key_num == 11 or key_num == 12):
+                #重心のポイント判別
+                if( key_num == 5 or key_num == 6 or key_num == 11 or key_num == 12):
                     
-                    x_sum += x_pos
-                    y_sum += y_pos
-                    z_sum += z_pos
-                    count += 1
+                    x_sum_list.append(x_pos)
+                    y_sum_list.append(y_pos)
+                    z_sum_list.append(z_pos)
+                    key_points_count += 1
                     
-                    if(key_num == 12 and count == 4):
-                        Output1.translation.x = x_sum / 4
-                        Output1.translation.y = y_sum / 4
-                        Output1.translation.z = z_sum / 4
-                        Output1.rotation.x = 0.0
-                        Output1.rotation.y = 0.0
-                        Output1.rotation.z = 0.0
-                        Output1.rotation.w = 1.0
-
-                        Output0.append(Output1)
-                        OutPut_Cashes = Output1
+                    #重心計算処理条件分岐
+                    if(key_num == num_keypoints -1 and key_points_count == 4):
+                        #重心計算関数実行
+                        Result_Of_Center_Gravity = self.CenterOfGravity(x_sum_list, y_sum_list, z_sum_list)
                         
+                        print(Result_Of_Center_Gravity)
+                        
+                        Output1.transform.translation.x,Output1.transform.translation.y,Output1.transform.translation.z = Result_Of_Center_Gravity
+                        Output1.transform.rotation.x = 0.0
+                        Output1.transform.rotation.y = 0.0
+                        Output1.transform.rotation.z = 0.0
+                        Output1.transform.rotation.w = 1.0
+                        
+                        Output0.transforms.append(Output1)
+                        OutPut_Cashes = Output0
+                
                 #挙手検出エリア
                 
                 '''
@@ -145,6 +149,29 @@ class person_checker(Node):
         #人の重心座標パブリッシュ
         self.pub_1.publish(Output0)       
                 
+    #重心計算メゾット
+    def CenterOfGravity(self,x_sum,y_sum,z_sum):
+        X_data = x_sum
+        Y_data = y_sum
+        Z_data = z_sum 
+        
+        #キーポイント検索（キーポイント未検出があるかどうか）
+        # 含まれていなかったらTRUEを返す。
+        X_data_result = 0.0 not in X_data
+        Y_data_result = 0.0 not in Y_data
+        Z_data_result = 0.0 not in Z_data
+        
+        if(X_data_result == True and Y_data_result == True and Z_data_result == True):
+            
+            #重心計算
+            X_Center = sum(X_data) / 4 
+            Y_Center = sum(Y_data) / 4
+            Z_Center = sum(Z_data) / 4
+            
+            CenterOfGravity = np.array([X_Center, Y_Center, Z_Center])
+            
+            return CenterOfGravity
+    
     '''角度計算メゾット'''
     #TODO: ３次元の場合正しく計算されているか確認する必要がある。
     def deg_checker(self,Point1,Point2,Origin):
@@ -163,6 +190,7 @@ class person_checker(Node):
         #COSθを計算
         COS_Theta = Dot / (Length1 * Length2)
         Theta = np.arccos(COS_Theta) * 180 / np.pi
+        print(Theta)
         
         return Theta
     

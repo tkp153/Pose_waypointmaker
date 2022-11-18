@@ -4,7 +4,7 @@ import os
 import cv2
 import numpy as np
 
-from openpifpaf_ros2_msgs.msg import Poses
+from openpifpaf_ros2_msgs_v2.msg import Poses
 from geometry_msgs.msg import Quaternion,Vector3
 from visualization_msgs.msg import MarkerArray,Marker
 import time
