@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/ros2_pifpaf/ros2_pifpaf.egg-info
+writing ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/requires.txt
+writing top-level names to ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/top_level.txt
+writing manifest file '../../build/ros2_pifpaf/ros2_pifpaf.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros2_pifpaf/ros2_pifpaf.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_pifpaf/ros2_pifpaf.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/Pose_waypointmaker/build/ros2_pifpaf/build
+creating /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib
+creating /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf
+copying ros2_pifpaf/openpifpaf_ros2_node.py -> /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf
+copying ros2_pifpaf/person_check.py -> /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf
+copying ros2_pifpaf/rgbd_openpifpaf_ros2_node.py -> /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf
+copying ros2_pifpaf/check.py -> /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf
+copying ros2_pifpaf/__init__.py -> /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf
+running install
+running install_lib
+creating /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf
+copying /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf/openpifpaf_ros2_node.py -> /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf
+copying /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf/person_check.py -> /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf
+copying /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf/rgbd_openpifpaf_ros2_node.py -> /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf
+copying /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf/check.py -> /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf
+copying /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf/__init__.py -> /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf
+byte-compiling /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf/openpifpaf_ros2_node.py to openpifpaf_ros2_node.cpython-38.pyc
+byte-compiling /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf/person_check.py to person_check.cpython-38.pyc
+byte-compiling /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf/rgbd_openpifpaf_ros2_node.py to rgbd_openpifpaf_ros2_node.cpython-38.pyc
+byte-compiling /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf/check.py to check.cpython-38.pyc
+byte-compiling /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /root/Pose_waypointmaker/install/ros2_pifpaf/share/ament_index
+creating /root/Pose_waypointmaker/install/ros2_pifpaf/share/ament_index/resource_index
+creating /root/Pose_waypointmaker/install/ros2_pifpaf/share/ament_index/resource_index/packages
+copying resource/ros2_pifpaf -> /root/Pose_waypointmaker/install/ros2_pifpaf/share/ament_index/resource_index/packages
+copying package.xml -> /root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf
+running install_egg_info
+Copying ../../build/ros2_pifpaf/ros2_pifpaf.egg-info to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf-0.0.0-py3.8.egg-info
+running install_scripts
+Installing check script to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/ros2_pifpaf
+Installing openpifpaf_ros2_node script to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/ros2_pifpaf
+Installing person_check script to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/ros2_pifpaf
+Installing rgbd_openpifpaf_ros2_node script to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/ros2_pifpaf
+writing list of installed files to '/root/Pose_waypointmaker/build/ros2_pifpaf/install.log'

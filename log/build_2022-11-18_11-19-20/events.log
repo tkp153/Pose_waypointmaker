@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000128] (openpifpaf_ros2_msgs) JobQueued: {'identifier': 'openpifpaf_ros2_msgs', 'dependencies': OrderedDict()}
+[0.000196] (ros2_pifpaf) JobQueued: {'identifier': 'ros2_pifpaf', 'dependencies': OrderedDict()}
+[0.000251] (openpifpaf_ros2_msgs) JobStarted: {'identifier': 'openpifpaf_ros2_msgs'}
+[0.024322] (ros2_pifpaf) JobStarted: {'identifier': 'ros2_pifpaf'}
+[0.040695] (openpifpaf_ros2_msgs) JobProgress: {'identifier': 'openpifpaf_ros2_msgs', 'progress': 'cmake'}
+[0.041266] (openpifpaf_ros2_msgs) Command: {'cmd': ['/usr/bin/cmake', '/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs', '-DCMAKE_INSTALL_PREFIX=/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs'], 'cwd': '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('NV_LIBCUBLAS_VERSION', '11.8.1.74-1'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('NVIDIA_DRIVERS_CAPABILITIES', 'all'), ('COLORTERM', 'truecolor'), ('NV_NVML_DEV_VERSION', '11.6.55-1'), ('NV_CUDNN_PACKAGE_NAME', 'libcudnn8'), ('TERM_PROGRAM_VERSION', '1.73.1'), ('NV_LIBNCCL_DEV_PACKAGE', 'libnccl-dev=2.12.10-1+cuda11.6'), ('NV_LIBNCCL_DEV_PACKAGE_VERSION', '2.12.10-1'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', 'tkp153-P65-Creator-8RE'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=11.6 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-90eb795a2f05ca9c5f5d0290ea68d320b9231c6e.sock'), ('NV_LIBCUBLAS_DEV_PACKAGE', 'libcublas-dev-11-6=11.8.1.74-1'), ('NV_NVTX_VERSION', '11.6.55-1'), ('NV_CUDA_CUDART_DEV_VERSION', '11.6.55-1'), ('APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE', '1'), ('NV_LIBCUSPARSE_VERSION', '11.7.1.55-1'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-90eb795a2f05ca9c5f5d0290ea68d320b9231c6e.sock'), ('NV_LIBNPP_VERSION', '11.6.0.55-1'), ('NCCL_VERSION', '2.12.10-1'), ('PWD', '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs'), ('NV_CUDNN_PACKAGE', 'libcudnn8=8.4.0.27-1+cuda11.6'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility'), ('NV_NVPROF_DEV_PACKAGE', 'cuda-nvprof-11-6=11.6.55-1'), ('ROS_DOMAIN_ID', '30'), ('NV_LIBNPP_PACKAGE', 'libnpp-11-6=11.6.0.55-1'), ('NV_LIBNCCL_DEV_PACKAGE_NAME', 'libnccl-dev'), ('TZ', 'Asia/Tokyo'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node'), ('NV_LIBCUBLAS_DEV_VERSION', '11.8.1.74-1'), ('NV_LIBCUBLAS_DEV_PACKAGE_NAME', 'libcublas-dev-11-6'), ('NV_CUDA_CUDART_VERSION', '11.6.55-1'), ('HOME', '/root'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('REMOTE_CONTAINERS', 'true'), ('CUDA_VERSION', '11.6.0'), ('NV_LIBCUBLAS_PACKAGE', 'libcublas-11-6=11.8.1.74-1'), ('AMENT_PREFIX_PATH', '/root/motpy_pifpaf/install/motpy_pifpaf_msg:/root/motpy_pifpaf/install/motpy_pifpaf:/opt/ros/foxy'), ('GIT_ASKPASS', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/root/motpy_pifpaf/install/motpy_pifpaf_msg:/root/motpy_pifpaf/install/motpy_pifpaf:/opt/ros/foxy'), ('COLCON_PREFIX_PATH', '/root/motpy_pifpaf/install:/root/colcon_ws/install'), ('NV_LIBNPP_DEV_PACKAGE', 'libnpp-dev-11-6=11.6.0.55-1'), ('NV_LIBCUBLAS_PACKAGE_NAME', 'libcublas-11-6'), ('NV_LIBNPP_DEV_VERSION', '11.6.0.55-1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PYTHONPATH', '/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages:/root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('NV_LIBCUSPARSE_DEV_VERSION', '11.7.1.55-1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-90eb795a2f05ca9c5f5d0290ea68d320b9231c6e.sock","/root/.gnupg/S.gpg-agent"]'), ('LIBRARY_PATH', '/usr/local/cuda/lib64/stubs'), ('NV_CUDNN_VERSION', '8.4.0.27'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-716f635f78.sock'), ('DISPLAY', ':1'), ('SHLVL', '3'), ('NV_CUDA_LIB_VERSION', '11.6.0-1'), ('NVARCH', 'x86_64'), ('NV_CUDNN_PACKAGE_DEV', 'libcudnn8-dev=8.4.0.27-1+cuda11.6'), ('NV_CUDA_COMPAT_PACKAGE', 'cuda-compat-11-6'), ('NV_LIBNCCL_PACKAGE', 'libnccl2=2.12.10-1+cuda11.6'), ('LD_LIBRARY_PATH', '/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('ROS_LOCALHOST_ONLY', '0'), ('NV_NVPROF_VERSION', '11.6.55-1'), ('LC_ALL', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass-main.js'), ('BROWSER', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/helpers/browser.sh'), ('PATH', '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/opt/ros/foxy/bin:= /usr/local/11.6.0/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('NV_LIBNCCL_PACKAGE_NAME', 'libnccl2'), ('NV_LIBNCCL_PACKAGE_VERSION', '2.12.10-1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'foxy'), ('OLDPWD', '/root'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-42a1b69f-223e-42d6-a479-27cbf0522b33.sock'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099415] (-) TimerEvent: {}
+[0.199758] (-) TimerEvent: {}
+[0.257999] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.299886] (-) TimerEvent: {}
+[0.335315] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.344376] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.399983] (-) TimerEvent: {}
+[0.426125] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.428367] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.497676] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.500083] (-) TimerEvent: {}
+[0.511623] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.512404] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.516796] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.597789] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.598731] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600155] (-) TimerEvent: {}
+[0.679146] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.689765] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.690295] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.700238] (-) TimerEvent: {}
+[0.707892] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.741337] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.741547] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.800351] (-) TimerEvent: {}
+[0.842890] (ros2_pifpaf) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_pifpaf', 'build', '--build-base', '/root/Pose_waypointmaker/build/ros2_pifpaf/build', 'install', '--prefix', '/root/Pose_waypointmaker/install/ros2_pifpaf', '--record', '/root/Pose_waypointmaker/build/ros2_pifpaf/install.log', '--single-version-externally-managed'], 'cwd': '/root/Pose_waypointmaker/src/ros2_pifpaf', 'env': {'SHELL': '/bin/bash', 'ROS_VERSION': '2', 'NV_LIBCUBLAS_VERSION': '11.8.1.74-1', 'NVIDIA_VISIBLE_DEVICES': 'all', 'NVIDIA_DRIVERS_CAPABILITIES': 'all', 'COLORTERM': 'truecolor', 'NV_NVML_DEV_VERSION': '11.6.55-1', 'NV_CUDNN_PACKAGE_NAME': 'libcudnn8', 'TERM_PROGRAM_VERSION': '1.73.1', 'NV_LIBNCCL_DEV_PACKAGE': 'libnccl-dev=2.12.10-1+cuda11.6', 'NV_LIBNCCL_DEV_PACKAGE_VERSION': '2.12.10-1', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': 'tkp153-P65-Creator-8RE', 'NVIDIA_REQUIRE_CUDA': 'cuda>=11.6 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=450,driver<451 brand=tesla,driver>=470,driver<471 brand=unknown,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=geforce,driver>=470,driver<471 brand=geforcertx,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=titan,driver>=470,driver<471 brand=titanrtx,driver>=470,driver<471', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-90eb795a2f05ca9c5f5d0290ea68d320b9231c6e.sock', 'NV_LIBCUBLAS_DEV_PACKAGE': 'libcublas-dev-11-6=11.8.1.74-1', 'NV_NVTX_VERSION': '11.6.55-1', 'NV_CUDA_CUDART_DEV_VERSION': '11.6.55-1', 'APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE': '1', 'NV_LIBCUSPARSE_VERSION': '11.7.1.55-1', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-90eb795a2f05ca9c5f5d0290ea68d320b9231c6e.sock', 'NV_LIBNPP_VERSION': '11.6.0.55-1', 'NCCL_VERSION': '2.12.10-1', 'PWD': '/root/Pose_waypointmaker/build/ros2_pifpaf', 'NV_CUDNN_PACKAGE': 'libcudnn8=8.4.0.27-1+cuda11.6', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'NV_NVPROF_DEV_PACKAGE': 'cuda-nvprof-11-6=11.6.55-1', 'ROS_DOMAIN_ID': '30', 'NV_LIBNPP_PACKAGE': 'libnpp-11-6=11.6.0.55-1', 'NV_LIBNCCL_DEV_PACKAGE_NAME': 'libnccl-dev', 'TZ': 'Asia/Tokyo', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/node', 'NV_LIBCUBLAS_DEV_VERSION': '11.8.1.74-1', 'NV_LIBCUBLAS_DEV_PACKAGE_NAME': 'libcublas-dev-11-6', 'NV_CUDA_CUDART_VERSION': '11.6.55-1', 'HOME': '/root', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'REMOTE_CONTAINERS': 'true', 'CUDA_VERSION': '11.6.0', 'NV_LIBCUBLAS_PACKAGE': 'libcublas-11-6=11.8.1.74-1', 'AMENT_PREFIX_PATH': '/root/motpy_pifpaf/install/motpy_pifpaf_msg:/root/motpy_pifpaf/install/motpy_pifpaf:/opt/ros/foxy', 'GIT_ASKPASS': '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass.sh', 'CMAKE_PREFIX_PATH': '/root/motpy_pifpaf/install/motpy_pifpaf_msg', 'COLCON_PREFIX_PATH': '/root/motpy_pifpaf/install:/root/colcon_ws/install', 'NV_LIBNPP_DEV_PACKAGE': 'libnpp-dev-11-6=11.6.0.55-1', 'NV_LIBCUBLAS_PACKAGE_NAME': 'libcublas-11-6', 'NV_LIBNPP_DEV_VERSION': '11.6.0.55-1', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PYTHONPATH': '/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages:/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib/python3.8/site-packages:/root/motpy_pifpaf/install/motpy_pifpaf/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'xterm-256color', 'NV_LIBCUSPARSE_DEV_VERSION': '11.7.1.55-1', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-90eb795a2f05ca9c5f5d0290ea68d320b9231c6e.sock","/root/.gnupg/S.gpg-agent"]', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'NV_CUDNN_VERSION': '8.4.0.27', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-716f635f78.sock', 'DISPLAY': ':1', 'SHLVL': '3', 'NV_CUDA_LIB_VERSION': '11.6.0-1', 'NVARCH': 'x86_64', 'NV_CUDNN_PACKAGE_DEV': 'libcudnn8-dev=8.4.0.27-1+cuda11.6', 'NV_CUDA_COMPAT_PACKAGE': 'cuda-compat-11-6', 'NV_LIBNCCL_PACKAGE': 'libnccl2=2.12.10-1+cuda11.6', 'LD_LIBRARY_PATH': '/root/motpy_pifpaf/install/motpy_pifpaf_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'ROS_LOCALHOST_ONLY': '0', 'NV_NVPROF_VERSION': '11.6.55-1', 'LC_ALL': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/extensions/git/dist/askpass-main.js', 'BROWSER': '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/helpers/browser.sh', 'PATH': '/root/.vscode-server/bin/6261075646f055b99068d3688932416f2346dd3b/bin/remote-cli:/opt/ros/foxy/bin:= /usr/local/11.6.0/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'NV_LIBNCCL_PACKAGE_NAME': 'libnccl2', 'NV_LIBNCCL_PACKAGE_VERSION': '2.12.10-1', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'foxy', 'OLDPWD': '/root', 'TERM_PROGRAM': 'vscode', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-42a1b69f-223e-42d6-a479-27cbf0522b33.sock', '_': '/usr/bin/env'}, 'shell': False}
+[0.900495] (-) TimerEvent: {}
+[0.987754] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.000572] (-) TimerEvent: {}
+[1.048396] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.062069] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.080394] (ros2_pifpaf) StdoutLine: {'line': b'running egg_info\n'}
+[1.080852] (ros2_pifpaf) StdoutLine: {'line': b'creating ../../build/ros2_pifpaf/ros2_pifpaf.egg-info\n'}
+[1.081071] (ros2_pifpaf) StdoutLine: {'line': b'writing ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/PKG-INFO\n'}
+[1.081332] (ros2_pifpaf) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/dependency_links.txt\n'}
+[1.081494] (ros2_pifpaf) StdoutLine: {'line': b'writing entry points to ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/entry_points.txt\n'}
+[1.081604] (ros2_pifpaf) StdoutLine: {'line': b'writing requirements to ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/requires.txt\n'}
+[1.081713] (ros2_pifpaf) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/top_level.txt\n'}
+[1.084683] (ros2_pifpaf) StdoutLine: {'line': b"writing manifest file '../../build/ros2_pifpaf/ros2_pifpaf.egg-info/SOURCES.txt'\n"}
+[1.100655] (-) TimerEvent: {}
+[1.117991] (ros2_pifpaf) StdoutLine: {'line': b"reading manifest file '../../build/ros2_pifpaf/ros2_pifpaf.egg-info/SOURCES.txt'\n"}
+[1.119078] (ros2_pifpaf) StdoutLine: {'line': b"writing manifest file '../../build/ros2_pifpaf/ros2_pifpaf.egg-info/SOURCES.txt'\n"}
+[1.119238] (ros2_pifpaf) StdoutLine: {'line': b'running build\n'}
+[1.119377] (ros2_pifpaf) StdoutLine: {'line': b'running build_py\n'}
+[1.119519] (ros2_pifpaf) StdoutLine: {'line': b'creating /root/Pose_waypointmaker/build/ros2_pifpaf/build\n'}
+[1.119691] (ros2_pifpaf) StdoutLine: {'line': b'creating /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib\n'}
+[1.119835] (ros2_pifpaf) StdoutLine: {'line': b'creating /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf\n'}
+[1.119964] (ros2_pifpaf) StdoutLine: {'line': b'copying ros2_pifpaf/openpifpaf_ros2_node.py -> /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf\n'}
+[1.120074] (ros2_pifpaf) StdoutLine: {'line': b'copying ros2_pifpaf/person_check.py -> /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf\n'}
+[1.120200] (ros2_pifpaf) StdoutLine: {'line': b'copying ros2_pifpaf/rgbd_openpifpaf_ros2_node.py -> /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf\n'}
+[1.120315] (ros2_pifpaf) StdoutLine: {'line': b'copying ros2_pifpaf/check.py -> /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf\n'}
+[1.120500] (ros2_pifpaf) StdoutLine: {'line': b'copying ros2_pifpaf/__init__.py -> /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf\n'}
+[1.120816] (ros2_pifpaf) StdoutLine: {'line': b'running install\n'}
+[1.121973] (ros2_pifpaf) StdoutLine: {'line': b'running install_lib\n'}
+[1.123451] (ros2_pifpaf) StdoutLine: {'line': b'creating /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf\n'}
+[1.123623] (ros2_pifpaf) StdoutLine: {'line': b'copying /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf/openpifpaf_ros2_node.py -> /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf\n'}
+[1.123772] (ros2_pifpaf) StdoutLine: {'line': b'copying /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf/person_check.py -> /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf\n'}
+[1.123979] (ros2_pifpaf) StdoutLine: {'line': b'copying /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf/rgbd_openpifpaf_ros2_node.py -> /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf\n'}
+[1.124130] (ros2_pifpaf) StdoutLine: {'line': b'copying /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf/check.py -> /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf\n'}
+[1.124292] (ros2_pifpaf) StdoutLine: {'line': b'copying /root/Pose_waypointmaker/build/ros2_pifpaf/build/lib/ros2_pifpaf/__init__.py -> /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf\n'}
+[1.125031] (ros2_pifpaf) StdoutLine: {'line': b'byte-compiling /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf/openpifpaf_ros2_node.py to openpifpaf_ros2_node.cpython-38.pyc\n'}
+[1.127921] (ros2_pifpaf) StdoutLine: {'line': b'byte-compiling /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf/person_check.py to person_check.cpython-38.pyc\n'}
+[1.129563] (ros2_pifpaf) StdoutLine: {'line': b'byte-compiling /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf/rgbd_openpifpaf_ros2_node.py to rgbd_openpifpaf_ros2_node.cpython-38.pyc\n'}
+[1.130578] (ros2_pifpaf) StdoutLine: {'line': b'byte-compiling /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf/check.py to check.cpython-38.pyc\n'}
+[1.131415] (ros2_pifpaf) StdoutLine: {'line': b'byte-compiling /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf/__init__.py to __init__.cpython-38.pyc\n'}
+[1.131636] (ros2_pifpaf) StdoutLine: {'line': b'running install_data\n'}
+[1.132382] (ros2_pifpaf) StdoutLine: {'line': b'creating /root/Pose_waypointmaker/install/ros2_pifpaf/share/ament_index\n'}
+[1.132529] (ros2_pifpaf) StdoutLine: {'line': b'creating /root/Pose_waypointmaker/install/ros2_pifpaf/share/ament_index/resource_index\n'}
+[1.132644] (ros2_pifpaf) StdoutLine: {'line': b'creating /root/Pose_waypointmaker/install/ros2_pifpaf/share/ament_index/resource_index/packages\n'}
+[1.132742] (ros2_pifpaf) StdoutLine: {'line': b'copying resource/ros2_pifpaf -> /root/Pose_waypointmaker/install/ros2_pifpaf/share/ament_index/resource_index/packages\n'}
+[1.132851] (ros2_pifpaf) StdoutLine: {'line': b'copying package.xml -> /root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf\n'}
+[1.132965] (ros2_pifpaf) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.135088] (ros2_pifpaf) StdoutLine: {'line': b'Copying ../../build/ros2_pifpaf/ros2_pifpaf.egg-info to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf-0.0.0-py3.8.egg-info\n'}
+[1.136802] (ros2_pifpaf) StdoutLine: {'line': b'running install_scripts\n'}
+[1.162225] (ros2_pifpaf) StdoutLine: {'line': b'Installing check script to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/ros2_pifpaf\n'}
+[1.162444] (ros2_pifpaf) StdoutLine: {'line': b'Installing openpifpaf_ros2_node script to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/ros2_pifpaf\n'}
+[1.162557] (ros2_pifpaf) StdoutLine: {'line': b'Installing person_check script to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/ros2_pifpaf\n'}
+[1.162679] (ros2_pifpaf) StdoutLine: {'line': b'Installing rgbd_openpifpaf_ros2_node script to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/ros2_pifpaf\n'}
+[1.163143] (ros2_pifpaf) StdoutLine: {'line': b"writing list of installed files to '/root/Pose_waypointmaker/build/ros2_pifpaf/install.log'\n"}
+[1.193979] (ros2_pifpaf) CommandEnded: {'returncode': 0}
+[1.200754] (-) TimerEvent: {}
+[1.216609] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.217050] (ros2_pifpaf) JobEnded: {'identifier': 'ros2_pifpaf', 'rc': 0}
+[1.266434] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.300844] (-) TimerEvent: {}
+[1.401096] (-) TimerEvent: {}
+[1.401831] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.501221] (-) TimerEvent: {}
+[1.523777] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.546323] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[1.601316] (-) TimerEvent: {}
+[1.623866] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[1.701406] (-) TimerEvent: {}
+[1.734841] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.801517] (-) TimerEvent: {}
+[1.901744] (-) TimerEvent: {}
+[1.982231] (openpifpaf_ros2_msgs) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[1.982390] (openpifpaf_ros2_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[1.982456] (openpifpaf_ros2_msgs) StderrLine: {'line': b'  openpifpaf_ros2_msgs --arguments-file\n'}
+[1.982515] (openpifpaf_ros2_msgs) StderrLine: {'line': b'  /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs/rosidl_adapter__arguments__openpifpaf_ros2_msgs.json\n'}
+[1.982572] (openpifpaf_ros2_msgs) StderrLine: {'line': b'  --output-dir\n'}
+[1.982628] (openpifpaf_ros2_msgs) StderrLine: {'line': b'  /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs/rosidl_adapter/openpifpaf_ros2_msgs\n'}
+[1.982684] (openpifpaf_ros2_msgs) StderrLine: {'line': b'  --output-file\n'}
+[1.982739] (openpifpaf_ros2_msgs) StderrLine: {'line': b'  /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs/rosidl_adapter/openpifpaf_ros2_msgs.idls)\n'}
+[1.982795] (openpifpaf_ros2_msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.982850] (openpifpaf_ros2_msgs) StderrLine: {'line': b'\n'}
+[1.982905] (openpifpaf_ros2_msgs) StderrLine: {'line': b"  Error processing 'geometry_msgs/Vector3 translation[] translation_data' of\n"}
+[1.982961] (openpifpaf_ros2_msgs) StderrLine: {'line': b"  'openpifpaf_ros2_msgs/Transforms': ''translation[]' is an invalid field\n"}
+[1.983015] (openpifpaf_ros2_msgs) StderrLine: {'line': b"  name.  It should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[1.983068] (openpifpaf_ros2_msgs) StderrLine: {'line': b'\n'}
+[1.983122] (openpifpaf_ros2_msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.983176] (openpifpaf_ros2_msgs) StderrLine: {'line': b'\n'}
+[1.983229] (openpifpaf_ros2_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[1.983283] (openpifpaf_ros2_msgs) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.983338] (openpifpaf_ros2_msgs) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[1.983392] (openpifpaf_ros2_msgs) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.983445] (openpifpaf_ros2_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.983535] (openpifpaf_ros2_msgs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.983589] (openpifpaf_ros2_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.983674] (openpifpaf_ros2_msgs) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.983728] (openpifpaf_ros2_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.983782] (openpifpaf_ros2_msgs) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.983836] (openpifpaf_ros2_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.983911] (openpifpaf_ros2_msgs) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.983980] (openpifpaf_ros2_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string\n'}
+[1.984040] (openpifpaf_ros2_msgs) StderrLine: {'line': b'      fields.append(Field(\n'}
+[1.984098] (openpifpaf_ros2_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__\n'}
+[1.984152] (openpifpaf_ros2_msgs) StderrLine: {'line': b'      raise NameError(\n'}
+[1.984207] (openpifpaf_ros2_msgs) StderrLine: {'line': b'\n'}
+[1.984265] (openpifpaf_ros2_msgs) StderrLine: {'line': b"  NameError: 'translation[]' is an invalid field name.  It should have the\n"}
+[1.984320] (openpifpaf_ros2_msgs) StderrLine: {'line': b"  pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[1.984374] (openpifpaf_ros2_msgs) StderrLine: {'line': b'\n'}
+[1.984458] (openpifpaf_ros2_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.984555] (openpifpaf_ros2_msgs) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.984674] (openpifpaf_ros2_msgs) StderrLine: {'line': b'  CMakeLists.txt:41 (rosidl_generate_interfaces)\n'}
+[1.984730] (openpifpaf_ros2_msgs) StderrLine: {'line': b'\n'}
+[1.984785] (openpifpaf_ros2_msgs) StderrLine: {'line': b'\n'}
+[1.984840] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.984901] (openpifpaf_ros2_msgs) StdoutLine: {'line': b'See also "/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.991146] (openpifpaf_ros2_msgs) CommandEnded: {'returncode': 1}
+[2.001914] (-) TimerEvent: {}
+[2.012047] (openpifpaf_ros2_msgs) JobEnded: {'identifier': 'openpifpaf_ros2_msgs', 'rc': 1}
+[2.023089] (-) EventReactorShutdown: {}

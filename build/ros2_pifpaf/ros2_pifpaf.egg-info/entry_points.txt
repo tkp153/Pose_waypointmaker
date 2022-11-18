@@ -1,0 +1,6 @@
+[console_scripts]
+check = ros2_pifpaf.check:main
+openpifpaf_ros2_node = ros2_pifpaf.openpifpaf_ros2_node:main
+person_check = ros2_pifpaf.person_check:main
+rgbd_openpifpaf_ros2_node = ros2_pifpaf.rgbd_openpifpaf_ros2_node:main
+

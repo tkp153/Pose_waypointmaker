@@ -1,0 +1,72 @@
+[0.042s] Invoking command in '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/motpy_pifpaf/install/motpy_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/Pose_waypointmaker/src/openpifpaf_ros2_msgs -DCMAKE_INSTALL_PREFIX=/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs
+[0.258s] -- The C compiler identification is GNU 9.4.0
+[0.336s] -- The CXX compiler identification is GNU 9.4.0
+[0.344s] -- Check for working C compiler: /usr/bin/cc
+[0.426s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.428s] -- Detecting C compiler ABI info
+[0.498s] -- Detecting C compiler ABI info - done
+[0.511s] -- Detecting C compile features
+[0.512s] -- Detecting C compile features - done
+[0.517s] -- Check for working CXX compiler: /usr/bin/c++
+[0.598s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.599s] -- Detecting CXX compiler ABI info
+[0.679s] -- Detecting CXX compiler ABI info - done
+[0.690s] -- Detecting CXX compile features
+[0.690s] -- Detecting CXX compile features - done
+[0.708s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.741s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.741s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.988s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.048s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.062s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.216s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.266s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.524s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.546s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.624s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.735s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.982s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[1.982s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.982s]   openpifpaf_ros2_msgs --arguments-file
+[1.982s]   /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs/rosidl_adapter__arguments__openpifpaf_ros2_msgs.json
+[1.982s]   --output-dir
+[1.982s]   /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs/rosidl_adapter/openpifpaf_ros2_msgs
+[1.982s]   --output-file
+[1.983s]   /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs/rosidl_adapter/openpifpaf_ros2_msgs.idls)
+[1.983s]   returned error code 1:
+[1.983s] 
+[1.983s]   Error processing 'geometry_msgs/Vector3 translation[] translation_data' of
+[1.983s]   'openpifpaf_ros2_msgs/Transforms': ''translation[]' is an invalid field
+[1.983s]   name.  It should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[1.983s] 
+[1.983s]   Traceback (most recent call last):
+[1.983s] 
+[1.983s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[1.983s]       return _run_code(code, main_globals, None,
+[1.983s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[1.983s]       exec(code, run_globals)
+[1.983s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.983s]       sys.exit(main())
+[1.983s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.983s]       abs_idl_file = convert_to_idl(
+[1.983s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.984s]       return convert_msg_to_idl(
+[1.984s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.984s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.984s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string
+[1.984s]       fields.append(Field(
+[1.984s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__
+[1.984s]       raise NameError(
+[1.984s] 
+[1.984s]   NameError: 'translation[]' is an invalid field name.  It should have the
+[1.984s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[1.984s] 
+[1.984s] Call Stack (most recent call first):
+[1.984s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.984s]   CMakeLists.txt:41 (rosidl_generate_interfaces)
+[1.984s] 
+[1.985s] 
+[1.985s] -- Configuring incomplete, errors occurred!
+[1.985s] See also "/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs/CMakeFiles/CMakeOutput.log".
+[1.991s] Invoked command in '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/motpy_pifpaf/install/motpy_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/Pose_waypointmaker/src/openpifpaf_ros2_msgs -DCMAKE_INSTALL_PREFIX=/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs

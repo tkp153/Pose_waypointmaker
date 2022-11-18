@@ -1,0 +1,56 @@
+[0.045s] Invoking command in '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/motpy_pifpaf/install/motpy_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/Pose_waypointmaker/src/openpifpaf_ros2_msgs -DCMAKE_INSTALL_PREFIX=/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs
+[0.068s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.098s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.099s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.300s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.336s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.341s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.579s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.590s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.666s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[0.775s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.004s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[1.004s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.004s]   openpifpaf_ros2_msgs --arguments-file
+[1.005s]   /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs/rosidl_adapter__arguments__openpifpaf_ros2_msgs.json
+[1.005s]   --output-dir
+[1.005s]   /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs/rosidl_adapter/openpifpaf_ros2_msgs
+[1.005s]   --output-file
+[1.005s]   /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs/rosidl_adapter/openpifpaf_ros2_msgs.idls)
+[1.005s]   returned error code 1:
+[1.005s] 
+[1.005s]   Error processing 'geometry_msgs/msg/Vector3 translation translation_data[]'
+[1.006s]   of 'openpifpaf_ros2_msgs/Transforms': 'geometry_msgs/msg/Vector3'
+[1.006s] 
+[1.006s]   Traceback (most recent call last):
+[1.006s] 
+[1.006s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[1.006s]       return _run_code(code, main_globals, None,
+[1.006s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[1.007s]       exec(code, run_globals)
+[1.007s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.007s]       sys.exit(main())
+[1.007s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.007s]       abs_idl_file = convert_to_idl(
+[1.007s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.007s]       return convert_msg_to_idl(
+[1.008s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.008s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.008s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[1.008s]       Type(type_string, context_package_name=pkg_name),
+[1.008s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[1.008s]       super(Type, self).__init__(
+[1.008s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 189, in __init__
+[1.008s]       raise InvalidResourceName(type_string)
+[1.009s] 
+[1.009s]   rosidl_adapter.parser.InvalidResourceName: geometry_msgs/msg/Vector3
+[1.009s] 
+[1.009s] Call Stack (most recent call first):
+[1.009s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.009s]   CMakeLists.txt:41 (rosidl_generate_interfaces)
+[1.009s] 
+[1.009s] 
+[1.010s] -- Configuring incomplete, errors occurred!
+[1.010s] See also "/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs/CMakeFiles/CMakeOutput.log".
+[1.015s] Invoked command in '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/motpy_pifpaf/install/motpy_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /root/Pose_waypointmaker/src/openpifpaf_ros2_msgs -DCMAKE_INSTALL_PREFIX=/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs
