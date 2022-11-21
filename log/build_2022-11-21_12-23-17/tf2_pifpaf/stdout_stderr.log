@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/tf2_pifpaf/tf2_pifpaf.egg-info/PKG-INFO
+writing dependency_links to ../../build/tf2_pifpaf/tf2_pifpaf.egg-info/dependency_links.txt
+writing entry points to ../../build/tf2_pifpaf/tf2_pifpaf.egg-info/entry_points.txt
+writing requirements to ../../build/tf2_pifpaf/tf2_pifpaf.egg-info/requires.txt
+writing top-level names to ../../build/tf2_pifpaf/tf2_pifpaf.egg-info/top_level.txt
+reading manifest file '../../build/tf2_pifpaf/tf2_pifpaf.egg-info/SOURCES.txt'
+writing manifest file '../../build/tf2_pifpaf/tf2_pifpaf.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tf2_pifpaf/tf2_pifpaf.py -> /root/Pose_waypointmaker/build/tf2_pifpaf/build/lib/tf2_pifpaf
+running install
+running install_lib
+copying /root/Pose_waypointmaker/build/tf2_pifpaf/build/lib/tf2_pifpaf/tf2_pifpaf.py -> /root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages/tf2_pifpaf
+byte-compiling /root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages/tf2_pifpaf/tf2_pifpaf.py to tf2_pifpaf.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages/tf2_pifpaf-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/tf2_pifpaf/tf2_pifpaf.egg-info to /root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages/tf2_pifpaf-0.0.0-py3.8.egg-info
+running install_scripts
+Installing tf2_pifpaf script to /root/Pose_waypointmaker/install/tf2_pifpaf/lib/tf2_pifpaf
+writing list of installed files to '/root/Pose_waypointmaker/build/tf2_pifpaf/install.log'

@@ -22,7 +22,7 @@ class person_checker(Node):
         # 人の座標情報
         self.pub_1 = self.create_publisher(Transforms,"/person_check",10)
         #挙手された人の情報
-        self.pub_2 =self.create_publisher(Transforms,"/raise_hand_info",10)
+        self.pub_2 =self.create_publisher(Transform,"/raise_hand_info",10)
         
         self.count_L = 0
         self.count_R = 0
