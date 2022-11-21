@@ -204,7 +204,7 @@ class person_checker(Node):
         
         #左手のチェック実施
         if(hand_switch == "Left"):
-            if( Theta < 45 
+            if( Theta < 50 
                 and Point1[0] != 0.0 and Point1[1] != 0.0 and Point1[2] != 0.0 
                 and Point2[0] != 0.0 and Point2[1] != 0.0 and Point2[2] != 0.0 ):
 
@@ -212,20 +212,20 @@ class person_checker(Node):
                 
                 #４フレーム以上カウントされていた場合；Output　-> 挙手（左手）
                 #TODO フレーム調整する必要あるかも...
-                if(self.count_L > 4):
+                if(self.count_L > 3):
                     return True
                 else:
                     return False
         
         #右手チェック
         elif(hand_switch == "Right"):
-            if(Theta < 45
+            if(Theta < 50
                 and Point1[0] != 0.0 and Point1[1] != 0.0 and Point1[2] != 0.0
                 and Point2[0] != 0.0 and Point2[1] != 0.0 and Point2[2] != 0.0):
                 
                 self.count_R += 1
                 
-                if(self.count_R > 4):
+                if(self.count_R > 3):
                     return True
                 else:
                     return False
