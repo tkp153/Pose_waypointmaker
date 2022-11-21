@@ -1,3 +1,4 @@
 [console_scripts]
+tf2_getpos = tf2_pifpaf.tf2_getpos:main
 tf2_pifpaf = tf2_pifpaf.tf2_pifpaf:main
 

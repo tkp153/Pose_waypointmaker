@@ -13,4 +13,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 tf2_pifpaf/__init__.py
+tf2_pifpaf/tf2_getpos.py
 tf2_pifpaf/tf2_pifpaf.py

@@ -22,7 +22,7 @@ class person_checker(Node):
         # 人の座標情報
         self.pub_1 = self.create_publisher(Transforms,"/person_check",10)
         #挙手された人の情報
-        self.pub_2 =self.create_publisher(Transform,"/raise_hand_info",10)
+        self.pub_2 =self.create_publisher(Transform,"raise_hand_info",10)
         
         self.count_L = 0
         self.count_R = 0
@@ -34,9 +34,11 @@ class person_checker(Node):
         #挙手された人の重心座標
         Output2 = Transform()
         
+        
         for person in data.poses:
             
             Output1 = Transform()
+            
         
             keypoints = np.array(person.keypoints).reshape(-1,4)
             keypoints = keypoints[keypoints[:, 3] != 0]
@@ -85,7 +87,7 @@ class person_checker(Node):
                         Output1.transform.rotation.w = 1.0
                         
                         Output0.transforms.append(Output1)
-                        OutPut_Cashes = Output0
+                        OutPut_Cashes = Output1
                 
                 #挙手検出エリア
                 
@@ -133,18 +135,19 @@ class person_checker(Node):
                 #カウント増加
                 key_num += 1
                 
-            #手をあげたのか？
-            '''
-            メモ；　もし人が手を挙げた場合，その手を挙げた人の重心座標を別でパブリッシュを実施するものをスクリプトで製作する。
-            '''
-            if(L_Raise_Hand == True and R_Raise_Hand == True):
-                self.pub_2.publish(OutPut_Cashes)
-            elif(L_Raise_Hand == True):
-                print("You are Raise the Hand")
-                self.pub_2.publish(OutPut_Cashes)
-            elif(R_Raise_Hand == True):
-                print("You are Raise the Hand")
-                self.pub_2.publish(OutPut_Cashes)
+                #手をあげたのか？
+                '''
+                メモ；　もし人が手を挙げた場合，その手を挙げた人の重心座標を別でパブリッシュを実施するものをスクリプトで製作する。
+                '''
+                if(key_num == num_keypoints - 1):
+                    if(L_Raise_Hand == True and R_Raise_Hand == True):
+                        self.pub_2.publish(Output1)
+                    elif(L_Raise_Hand == True):
+                        print("You are Raise the Hand")
+                        self.pub_2.publish(Output1)
+                    elif(R_Raise_Hand == True):
+                        print("You are Raise the Hand")
+                        self.pub_2.publish(Output1)
                 
         #人の重心座標パブリッシュ
         self.pub_1.publish(Output0)       

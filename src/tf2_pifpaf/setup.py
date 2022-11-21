@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'tf2_pifpaf = tf2_pifpaf.tf2_pifpaf:main'
+            'tf2_pifpaf = tf2_pifpaf.tf2_pifpaf:main',
+            'tf2_getpos =tf2_pifpaf.tf2_getpos:main',
         ],
     },
 )

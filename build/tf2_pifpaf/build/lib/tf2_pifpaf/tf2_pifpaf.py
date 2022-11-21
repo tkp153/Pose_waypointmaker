@@ -3,7 +3,7 @@ from rclpy.node import Node
 from tf2_ros import StaticTransformBroadcaster,TransformBroadcaster
 #from tf_transformations import quaternion_from_quaternion
 from geometry_msgs.msg import TransformStamped
-from openpifpaf_ros2_msgs_v2.msg import Transforms
+from openpifpaf_ros2_msgs_v2.msg import Transforms,Transform
 
 class SateliteBroadcaster(Node):
     def __init__(self):
@@ -27,6 +27,7 @@ class SateliteBroadcaster(Node):
         
         #人間
         self.sub = self.create_subscription(Transforms,"/person_check",self.human,1)
+        self.sub2 = self.create_subscription(Transform,"/raise_hand_info",self.raise_hand_tf,1)
         
     def human(self,data):
         people =[]
@@ -60,13 +61,21 @@ class SateliteBroadcaster(Node):
             dsg.append(msg)
             id_2 += 1
             
-        #print(dsg)
-
-        count = 0
+    def raise_hand_tf(self,data):
+        gsg = TransformStamped()
+        broadcast3 = TransformBroadcaster(self)
+        gsg.header.stamp = self.get_clock().now().to_msg()
+        gsg.header.frame_id = "camera"
+        gsg.child_frame_id = "RAISE_HAND"
+        gsg.transform.translation.x = data.transform.translation.z
+        gsg.transform.translation.y = data.transform.translation.x
+        gsg.transform.translation.z = data.transform.translation.y * -1
+        gsg.transform.rotation.x = data.transform.rotation.x
+        gsg.transform.rotation.y = data.transform.rotation.y
+        gsg.transform.rotation.z = data.transform.rotation.z
+        gsg.transform.rotation.w = data.transform.rotation.w
         
-        #for i in len(dsg):
-            #broadcast2.sendTransform(dsg[count])
-                        
+        broadcast3.sendTransform(gsg)                
         
 def main():
     rclpy.init()

@@ -3,7 +3,7 @@ from rclpy.node import Node
 from tf2_ros import StaticTransformBroadcaster,TransformBroadcaster
 #from tf_transformations import quaternion_from_quaternion
 from geometry_msgs.msg import TransformStamped
-from openpifpaf_ros2_msgs_v2.msg import Transforms
+from openpifpaf_ros2_msgs_v2.msg import Transforms,Transform
 
 class SateliteBroadcaster(Node):
     def __init__(self):
@@ -27,6 +27,7 @@ class SateliteBroadcaster(Node):
         
         #人間
         self.sub = self.create_subscription(Transforms,"/person_check",self.human,1)
+        self.sub2 = self.create_subscription(Transform,"/raise_hand_info",self.raise_hand_tf,1)
         
     def human(self,data):
         people =[]

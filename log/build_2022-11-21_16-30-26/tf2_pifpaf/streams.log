@@ -1,0 +1,40 @@
+[3.335s] Invoking command in '/root/Pose_waypointmaker/src/tf2_pifpaf': PYTHONPATH=/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf2_pifpaf build --build-base /root/Pose_waypointmaker/build/tf2_pifpaf/build install --prefix /root/Pose_waypointmaker/install/tf2_pifpaf --record /root/Pose_waypointmaker/build/tf2_pifpaf/install.log --single-version-externally-managed
+[4.404s] running egg_info
+[4.407s] creating ../../build/tf2_pifpaf/tf2_pifpaf.egg-info
+[4.408s] writing ../../build/tf2_pifpaf/tf2_pifpaf.egg-info/PKG-INFO
+[4.410s] writing dependency_links to ../../build/tf2_pifpaf/tf2_pifpaf.egg-info/dependency_links.txt
+[4.411s] writing entry points to ../../build/tf2_pifpaf/tf2_pifpaf.egg-info/entry_points.txt
+[4.412s] writing requirements to ../../build/tf2_pifpaf/tf2_pifpaf.egg-info/requires.txt
+[4.414s] writing top-level names to ../../build/tf2_pifpaf/tf2_pifpaf.egg-info/top_level.txt
+[4.422s] writing manifest file '../../build/tf2_pifpaf/tf2_pifpaf.egg-info/SOURCES.txt'
+[4.644s] reading manifest file '../../build/tf2_pifpaf/tf2_pifpaf.egg-info/SOURCES.txt'
+[4.647s] writing manifest file '../../build/tf2_pifpaf/tf2_pifpaf.egg-info/SOURCES.txt'
+[4.648s] running build
+[4.649s] running build_py
+[4.649s] creating /root/Pose_waypointmaker/build/tf2_pifpaf/build
+[4.650s] creating /root/Pose_waypointmaker/build/tf2_pifpaf/build/lib
+[4.650s] creating /root/Pose_waypointmaker/build/tf2_pifpaf/build/lib/tf2_pifpaf
+[4.651s] copying tf2_pifpaf/tf2_getpos.py -> /root/Pose_waypointmaker/build/tf2_pifpaf/build/lib/tf2_pifpaf
+[4.652s] copying tf2_pifpaf/tf2_pifpaf.py -> /root/Pose_waypointmaker/build/tf2_pifpaf/build/lib/tf2_pifpaf
+[4.652s] copying tf2_pifpaf/__init__.py -> /root/Pose_waypointmaker/build/tf2_pifpaf/build/lib/tf2_pifpaf
+[4.653s] running install
+[4.654s] running install_lib
+[4.659s] creating /root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages/tf2_pifpaf
+[4.659s] copying /root/Pose_waypointmaker/build/tf2_pifpaf/build/lib/tf2_pifpaf/tf2_getpos.py -> /root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages/tf2_pifpaf
+[4.660s] copying /root/Pose_waypointmaker/build/tf2_pifpaf/build/lib/tf2_pifpaf/tf2_pifpaf.py -> /root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages/tf2_pifpaf
+[4.661s] copying /root/Pose_waypointmaker/build/tf2_pifpaf/build/lib/tf2_pifpaf/__init__.py -> /root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages/tf2_pifpaf
+[4.663s] byte-compiling /root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages/tf2_pifpaf/tf2_getpos.py to tf2_getpos.cpython-38.pyc
+[4.671s] byte-compiling /root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages/tf2_pifpaf/tf2_pifpaf.py to tf2_pifpaf.cpython-38.pyc
+[4.675s] byte-compiling /root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages/tf2_pifpaf/__init__.py to __init__.cpython-38.pyc
+[4.676s] running install_data
+[4.678s] creating /root/Pose_waypointmaker/install/tf2_pifpaf/share/ament_index
+[4.680s] creating /root/Pose_waypointmaker/install/tf2_pifpaf/share/ament_index/resource_index
+[4.680s] creating /root/Pose_waypointmaker/install/tf2_pifpaf/share/ament_index/resource_index/packages
+[4.681s] copying resource/tf2_pifpaf -> /root/Pose_waypointmaker/install/tf2_pifpaf/share/ament_index/resource_index/packages
+[4.681s] copying package.xml -> /root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf
+[4.682s] running install_egg_info
+[4.688s] Copying ../../build/tf2_pifpaf/tf2_pifpaf.egg-info to /root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages/tf2_pifpaf-0.0.0-py3.8.egg-info
+[4.695s] running install_scripts
+[4.777s] Installing tf2_pifpaf script to /root/Pose_waypointmaker/install/tf2_pifpaf/lib/tf2_pifpaf
+[4.779s] writing list of installed files to '/root/Pose_waypointmaker/build/tf2_pifpaf/install.log'
+[4.867s] Invoked command in '/root/Pose_waypointmaker/src/tf2_pifpaf' returned '0': PYTHONPATH=/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf2_pifpaf build --build-base /root/Pose_waypointmaker/build/tf2_pifpaf/build install --prefix /root/Pose_waypointmaker/install/tf2_pifpaf --record /root/Pose_waypointmaker/build/tf2_pifpaf/install.log --single-version-externally-managed
