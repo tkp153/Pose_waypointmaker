@@ -4,10 +4,15 @@ from tf2_ros import StaticTransformBroadcaster,TransformBroadcaster
 #from tf_transformations import quaternion_from_quaternion
 from geometry_msgs.msg import TransformStamped
 from openpifpaf_ros2_msgs_v2.msg import Transforms,Transform
+from sensor_msgs.msg import Imu
+import math
+from geometry_msgs.msg import Quaternion
+import tf_transformations
 
 class SateliteBroadcaster(Node):
     def __init__(self):
         super().__init__('SateliteBroadcaster')
+        
         
         # 基準点
         Transform_stamped = TransformStamped()
@@ -25,10 +30,16 @@ class SateliteBroadcaster(Node):
         broadcaster = StaticTransformBroadcaster(self)
         broadcaster.sendTransform(Transform_stamped)
         
+        video_qos = rclpy.qos.QoSProfile(depth = 10)
+        video_qos.reliability = rclpy.qos.QoSReliabilityPolicy.BEST_EFFORT
+        self.temp = 0
+        
         #人間
         self.sub = self.create_subscription(Transforms,"/person_check",self.human,1)
         self.sub2 = self.create_subscription(Transform,"/raise_hand_info",self.raise_hand_tf,1)
-        
+        #self.sub3 = self.create_subscription(Imu,"/camera/imu",self.IMU,video_qos)
+    
+    
     def human(self,data):
         people =[]
         dsg = []

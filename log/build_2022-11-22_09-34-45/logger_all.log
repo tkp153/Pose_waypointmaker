@@ -1,0 +1,498 @@
+[0.145s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.145s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdf86d8caf0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdf86d8caf0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdf86d990a0>)
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.171s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/Pose_waypointmaker'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openpifpaf_ros2_msgs_v2' with type 'ros.ament_cmake' and name 'openpifpaf_ros2_msgs_v2'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_pifpaf' with type 'ros.ament_python' and name 'ros2_pifpaf'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_pifpaf' with type 'ros.ament_python' and name 'tf2_pifpaf'
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'openpifpaf_ros2_msgs_v2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2', 'merge_install': False, 'path': '/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs_v2', 'symlink_install': False, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.224s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Pose_waypointmaker/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Pose_waypointmaker/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/root/Pose_waypointmaker/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_pifpaf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Pose_waypointmaker/build/tf2_pifpaf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Pose_waypointmaker/install/tf2_pifpaf', 'merge_install': False, 'path': '/root/Pose_waypointmaker/src/tf2_pifpaf', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Pose_waypointmaker/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Pose_waypointmaker/install/realsense2_camera', 'merge_install': False, 'path': '/root/Pose_waypointmaker/src/realsense-ros/realsense2_camera', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Pose_waypointmaker/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Pose_waypointmaker/install/realsense2_description', 'merge_install': False, 'path': '/root/Pose_waypointmaker/src/realsense-ros/realsense2_description', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_pifpaf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Pose_waypointmaker/build/ros2_pifpaf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Pose_waypointmaker/install/ros2_pifpaf', 'merge_install': False, 'path': '/root/Pose_waypointmaker/src/ros2_pifpaf', 'symlink_install': False, 'test_result_base': None}
+[0.229s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.234s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Pose_waypointmaker/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.234s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Pose_waypointmaker/src/realsense-ros/realsense2_camera_msgs'
+[0.239s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.250s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs_v2' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs_v2'
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.261s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/Pose_waypointmaker/src/tf2_pifpaf' with build type 'ament_python'
+[0.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_pifpaf', 'ament_prefix_path')
+[0.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/hook/ament_prefix_path.ps1'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/hook/ament_prefix_path.dsv'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/hook/ament_prefix_path.sh'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /root/Pose_waypointmaker/build/realsense2_camera_msgs -- -j12 -l12
+[0.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2 -- -j12 -l12
+[0.570s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/Pose_waypointmaker/src/tf2_pifpaf'
+[0.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /root/Pose_waypointmaker/build/realsense2_camera_msgs -- -j12 -l12
+[0.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2 -- -j12 -l12
+[0.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /root/Pose_waypointmaker/build/realsense2_camera_msgs
+[0.854s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[0.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /root/Pose_waypointmaker/build/realsense2_camera_msgs
+[0.861s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs' for CMake module files
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs' for CMake config files
+[0.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib'
+[0.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs/bin'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/python3.8/site-packages'
+[0.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'pythonpath')
+[0.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/pythonpath.ps1'
+[0.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/pythonpath.dsv'
+[0.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/pythonpath.sh'
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs/bin'
+[0.873s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[0.875s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[0.877s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[0.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2
+[0.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openpifpaf_ros2_msgs_v2)
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2' for CMake module files
+[0.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2' for CMake config files
+[0.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('openpifpaf_ros2_msgs_v2', 'cmake_prefix_path')
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/cmake_prefix_path.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/cmake_prefix_path.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/cmake_prefix_path.sh'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib'
+[0.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('openpifpaf_ros2_msgs_v2', 'ld_library_path_lib')
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/ld_library_path_lib.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/ld_library_path_lib.dsv'
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/ld_library_path_lib.sh'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/bin'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/pkgconfig/openpifpaf_ros2_msgs_v2.pc'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/python3.8/site-packages'
+[0.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('openpifpaf_ros2_msgs_v2', 'pythonpath')
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/pythonpath.ps1'
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/pythonpath.dsv'
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/pythonpath.sh'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/bin'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.ps1'
+[0.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.dsv'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.sh'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.bash'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.zsh'
+[0.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/colcon-core/packages/openpifpaf_ros2_msgs_v2)
+[1.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/src/tf2_pifpaf': PYTHONPATH=/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf2_pifpaf build --build-base /root/Pose_waypointmaker/build/tf2_pifpaf/build install --prefix /root/Pose_waypointmaker/install/tf2_pifpaf --record /root/Pose_waypointmaker/build/tf2_pifpaf/install.log --single-version-externally-managed
+[1.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs' for CMake module files
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs' for CMake config files
+[1.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib'
+[1.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs/bin'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/python3.8/site-packages'
+[1.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'pythonpath')
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/pythonpath.ps1'
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/pythonpath.dsv'
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/pythonpath.sh'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera_msgs/bin'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[1.120s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[1.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[1.122s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Pose_waypointmaker/src/realsense-ros/realsense2_camera' with build type 'ament_cmake'
+[1.122s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Pose_waypointmaker/src/realsense-ros/realsense2_camera'
+[1.123s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.123s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.134s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Pose_waypointmaker/src/realsense-ros/realsense2_description' with build type 'ament_cmake'
+[1.134s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Pose_waypointmaker/src/realsense-ros/realsense2_description'
+[1.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/realsense2_camera': AMENT_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --build /root/Pose_waypointmaker/build/realsense2_camera -- -j12 -l12
+[1.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/realsense2_description': AMENT_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --build /root/Pose_waypointmaker/build/realsense2_description -- -j12 -l12
+[1.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --build /root/Pose_waypointmaker/build/realsense2_description -- -j12 -l12
+[1.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/realsense2_description': AMENT_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --install /root/Pose_waypointmaker/build/realsense2_description
+[1.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_description' for CMake module files
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_description' for CMake config files
+[1.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[1.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[1.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/realsense2_description' returned '0': AMENT_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --install /root/Pose_waypointmaker/build/realsense2_description
+[1.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_description/bin'
+[1.310s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_description/lib/python3.8/site-packages'
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_description/bin'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/package.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/package.dsv'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/package.sh'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/package.bash'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/package.zsh'
+[1.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[1.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --build /root/Pose_waypointmaker/build/realsense2_camera -- -j12 -l12
+[1.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_description' for CMake module files
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_description' for CMake config files
+[1.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[1.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[1.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_description/bin'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[1.371s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_description/lib/python3.8/site-packages'
+[1.372s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_description/bin'
+[1.375s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/package.ps1'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/package.dsv'
+[1.376s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/package.sh'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/package.bash'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_description/share/realsense2_description/package.zsh'
+[1.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[1.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openpifpaf_ros2_msgs_v2)
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2' for CMake module files
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2' for CMake config files
+[1.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('openpifpaf_ros2_msgs_v2', 'cmake_prefix_path')
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/cmake_prefix_path.ps1'
+[1.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/cmake_prefix_path.dsv'
+[1.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/cmake_prefix_path.sh'
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib'
+[1.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('openpifpaf_ros2_msgs_v2', 'ld_library_path_lib')
+[1.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/ld_library_path_lib.ps1'
+[1.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/ld_library_path_lib.dsv'
+[1.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/ld_library_path_lib.sh'
+[1.402s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/bin'
+[1.402s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/pkgconfig/openpifpaf_ros2_msgs_v2.pc'
+[1.402s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/python3.8/site-packages'
+[1.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('openpifpaf_ros2_msgs_v2', 'pythonpath')
+[1.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/pythonpath.ps1'
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/pythonpath.dsv'
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/pythonpath.sh'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/bin'
+[1.411s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.ps1'
+[1.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.dsv'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.sh'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.bash'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.zsh'
+[1.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/colcon-core/packages/openpifpaf_ros2_msgs_v2)
+[1.415s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/Pose_waypointmaker/src/ros2_pifpaf' with build type 'ament_python'
+[1.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_pifpaf', 'ament_prefix_path')
+[1.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/hook/ament_prefix_path.ps1'
+[1.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/hook/ament_prefix_path.dsv'
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/hook/ament_prefix_path.sh'
+[1.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/realsense2_camera': AMENT_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --install /root/Pose_waypointmaker/build/realsense2_camera
+[1.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera' for CMake module files
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera' for CMake config files
+[1.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/opt/ros/foxy LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/cmake --install /root/Pose_waypointmaker/build/realsense2_camera
+[1.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[1.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[1.512s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera/lib'
+[1.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera/bin'
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[1.517s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera/lib/python3.8/site-packages'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera/bin'
+[1.520s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[1.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/package.sh'
+[1.522s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/package.bash'
+[1.523s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[1.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[1.827s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/Pose_waypointmaker/src/ros2_pifpaf'
+[1.829s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.829s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[1.847s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera' for CMake module files
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera' for CMake config files
+[1.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera/lib'
+[1.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[1.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[1.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera/bin'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera/lib/python3.8/site-packages'
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/realsense2_camera/bin'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[1.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[1.863s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/package.sh'
+[1.864s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/package.bash'
+[1.864s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[1.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf' for CMake module files
+[1.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/src/tf2_pifpaf' returned '0': PYTHONPATH=/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf2_pifpaf build --build-base /root/Pose_waypointmaker/build/tf2_pifpaf/build install --prefix /root/Pose_waypointmaker/install/tf2_pifpaf --record /root/Pose_waypointmaker/build/tf2_pifpaf/install.log --single-version-externally-managed
+[1.871s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf' for CMake config files
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf/lib'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf/bin'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf/lib/pkgconfig/tf2_pifpaf.pc'
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages'
+[1.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_pifpaf', 'pythonpath')
+[1.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/hook/pythonpath.ps1'
+[1.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/hook/pythonpath.dsv'
+[1.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/hook/pythonpath.sh'
+[1.875s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf/bin'
+[1.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2_pifpaf)
+[1.877s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/package.ps1'
+[1.878s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/package.dsv'
+[1.878s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/package.sh'
+[1.879s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/package.bash'
+[1.879s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/package.zsh'
+[1.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/tf2_pifpaf/share/colcon-core/packages/tf2_pifpaf)
+[2.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/src/ros2_pifpaf': PYTHONPATH=/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_pifpaf build --build-base /root/Pose_waypointmaker/build/ros2_pifpaf/build install --prefix /root/Pose_waypointmaker/install/ros2_pifpaf --record /root/Pose_waypointmaker/build/ros2_pifpaf/install.log --single-version-externally-managed
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf' for CMake module files
+[2.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/src/ros2_pifpaf' returned '0': PYTHONPATH=/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_pifpaf build --build-base /root/Pose_waypointmaker/build/ros2_pifpaf/build install --prefix /root/Pose_waypointmaker/install/ros2_pifpaf --record /root/Pose_waypointmaker/build/ros2_pifpaf/install.log --single-version-externally-managed
+[2.688s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf' for CMake config files
+[2.688s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf/lib'
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf/bin'
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf/lib/pkgconfig/ros2_pifpaf.pc'
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages'
+[2.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_pifpaf', 'pythonpath')
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/hook/pythonpath.ps1'
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/hook/pythonpath.dsv'
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/hook/pythonpath.sh'
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf/bin'
+[2.692s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_pifpaf)
+[2.693s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/package.ps1'
+[2.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/package.dsv'
+[2.694s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/package.sh'
+[2.694s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/package.bash'
+[2.694s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/package.zsh'
+[2.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/ros2_pifpaf/share/colcon-core/packages/ros2_pifpaf)
+[2.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.695s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.702s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.702s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.702s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.702s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.706s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally with the following error: Authorization required, but no authorization protocol specified
+Autolaunch error: X11 initialization failed.
+
+[2.707s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.709s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Pose_waypointmaker/install/local_setup.ps1'
+[2.710s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Pose_waypointmaker/install/_local_setup_util_ps1.py'
+[2.711s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Pose_waypointmaker/install/setup.ps1'
+[2.713s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Pose_waypointmaker/install/local_setup.sh'
+[2.713s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Pose_waypointmaker/install/_local_setup_util_sh.py'
+[2.714s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Pose_waypointmaker/install/setup.sh'
+[2.715s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Pose_waypointmaker/install/local_setup.bash'
+[2.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Pose_waypointmaker/install/setup.bash'
+[2.717s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Pose_waypointmaker/install/local_setup.zsh'
+[2.718s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Pose_waypointmaker/install/setup.zsh'

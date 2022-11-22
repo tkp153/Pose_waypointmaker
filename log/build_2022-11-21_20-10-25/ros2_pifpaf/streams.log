@@ -1,0 +1,24 @@
+[0.604s] Invoking command in '/root/Pose_waypointmaker/src/ros2_pifpaf': PYTHONPATH=/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_pifpaf build --build-base /root/Pose_waypointmaker/build/ros2_pifpaf/build install --prefix /root/Pose_waypointmaker/install/ros2_pifpaf --record /root/Pose_waypointmaker/build/ros2_pifpaf/install.log --single-version-externally-managed
+[0.794s] running egg_info
+[0.794s] writing ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/PKG-INFO
+[0.795s] writing dependency_links to ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/dependency_links.txt
+[0.795s] writing entry points to ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/entry_points.txt
+[0.795s] writing requirements to ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/requires.txt
+[0.795s] writing top-level names to ../../build/ros2_pifpaf/ros2_pifpaf.egg-info/top_level.txt
+[0.822s] reading manifest file '../../build/ros2_pifpaf/ros2_pifpaf.egg-info/SOURCES.txt'
+[0.823s] writing manifest file '../../build/ros2_pifpaf/ros2_pifpaf.egg-info/SOURCES.txt'
+[0.823s] running build
+[0.823s] running build_py
+[0.823s] running install
+[0.824s] running install_lib
+[0.825s] running install_data
+[0.825s] running install_egg_info
+[0.827s] removing '/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf-0.0.0-py3.8.egg-info' (and everything under it)
+[0.827s] Copying ../../build/ros2_pifpaf/ros2_pifpaf.egg-info to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages/ros2_pifpaf-0.0.0-py3.8.egg-info
+[0.828s] running install_scripts
+[0.841s] Installing check script to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/ros2_pifpaf
+[0.841s] Installing openpifpaf_ros2_node script to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/ros2_pifpaf
+[0.842s] Installing person_check script to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/ros2_pifpaf
+[0.842s] Installing rgbd_openpifpaf_ros2_node script to /root/Pose_waypointmaker/install/ros2_pifpaf/lib/ros2_pifpaf
+[0.842s] writing list of installed files to '/root/Pose_waypointmaker/build/ros2_pifpaf/install.log'
+[0.860s] Invoked command in '/root/Pose_waypointmaker/src/ros2_pifpaf' returned '0': PYTHONPATH=/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_pifpaf build --build-base /root/Pose_waypointmaker/build/ros2_pifpaf/build install --prefix /root/Pose_waypointmaker/install/ros2_pifpaf --record /root/Pose_waypointmaker/build/ros2_pifpaf/install.log --single-version-externally-managed
