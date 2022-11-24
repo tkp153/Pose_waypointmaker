@@ -27,6 +27,8 @@ class person_checker(Node):
         self.count_L = 0
         self.count_R = 0
         
+        self.timer_previous = time.time()
+        
     def status_checker(self,data):
         
         #　人の重心座標（すべて）
@@ -140,15 +142,21 @@ class person_checker(Node):
                 メモ；　もし人が手を挙げた場合，その手を挙げた人の重心座標を別でパブリッシュを実施するものをスクリプトで製作する。
                 '''
                 if(key_num == num_keypoints - 1):
-                    if(L_Raise_Hand == True and R_Raise_Hand == True):
-                        self.pub_2.publish(Output1)
-                    elif(L_Raise_Hand == True):
-                        print("You are Raise the Hand")
-                        self.pub_2.publish(Output1)
-                    elif(R_Raise_Hand == True):
-                        print("You are Raise the Hand")
-                        self.pub_2.publish(Output1)
-                
+                    
+                    time = time.time()
+                    if(time - self.timer_previous > 10.0):
+                    
+                        if(L_Raise_Hand == True and R_Raise_Hand == True):
+                            self.pub_2.publish(Output1)
+                        elif(L_Raise_Hand == True):
+                            print("You are Raise the Hand")
+                            self.pub_2.publish(Output1)
+                        elif(R_Raise_Hand == True):
+                            print("You are Raise the Hand")
+                            self.pub_2.publish(Output1)
+
+                        self.timer_previous = time
+                        
         #人の重心座標パブリッシュ
         self.pub_1.publish(Output0)       
                 

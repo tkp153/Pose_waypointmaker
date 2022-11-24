@@ -34,6 +34,7 @@ set(msg_files
   "msg/Pose3DArray.msg"
   "msg/Transform.msg"
   "msg/Transforms.msg"
+  "msg/WayPoint.msg"
 )
 set(srv_files
 

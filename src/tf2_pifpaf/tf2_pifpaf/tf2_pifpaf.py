@@ -7,7 +7,10 @@ from openpifpaf_ros2_msgs_v2.msg import Transforms,Transform
 from sensor_msgs.msg import Imu
 import math
 from geometry_msgs.msg import Quaternion
-import tf_transformations
+from tf2_ros import TransformException
+from tf2_ros.buffer import Buffer
+from tf2_ros.transform_listener import TransformListener
+import csv
 
 class SateliteBroadcaster(Node):
     def __init__(self):
@@ -33,6 +36,13 @@ class SateliteBroadcaster(Node):
         video_qos = rclpy.qos.QoSProfile(depth = 10)
         video_qos.reliability = rclpy.qos.QoSReliabilityPolicy.BEST_EFFORT
         self.temp = 0
+        
+        self.target_frame = "odom"
+        self.tf_buffer = Buffer()
+        self.tf_listener = TransformListener(self.tf_buffer,self)
+        self.filename = "waypoint_data.csv"
+        with open(self.filename, "w",encoding="utf_8") as f:
+            f.write()
         
         #人間
         self.sub = self.create_subscription(Transforms,"/person_check",self.human,1)
@@ -76,7 +86,7 @@ class SateliteBroadcaster(Node):
         gsg = TransformStamped()
         broadcast3 = TransformBroadcaster(self)
         gsg.header.stamp = self.get_clock().now().to_msg()
-        gsg.header.frame_id = "camera"
+        gsg.header.frame_id = "odom"
         gsg.child_frame_id = "RAISE_HAND"
         gsg.transform.translation.x = data.transform.translation.z
         gsg.transform.translation.y = data.transform.translation.x
@@ -86,8 +96,33 @@ class SateliteBroadcaster(Node):
         gsg.transform.rotation.z = data.transform.rotation.z
         gsg.transform.rotation.w = data.transform.rotation.w
         
-        broadcast3.sendTransform(gsg)                
+        broadcast3.sendTransform(gsg)
+        self.writing_waypoints(data)
         
+    #WayPoints CSV Writer
+    def writing_waypoints(self,data): 
+        source_frame = data.child_frame_id
+        try:
+            when = rclpy.time.Time()
+            trans = self.tf_buffer.lookup_transform(self.target_frame, source_frame, when)
+        except TransformException:
+            pass
+            pos_x = trans.transform.translation.x
+            pos_y = trans.transform.translation.y
+            pos_z = trans.transform.translation.z
+            rot_x = trans.transform.rotation.x
+            rot_y = trans.transform.rotation.y
+            rot_z = trans.transform.rotation.z
+            rot_w = trans.transform.rotation.w
+            data_row = [pos_x, pos_y, pos_z, rot_x, rot_y,rot_z,rot_w]
+            with open(self.filename, "a",encoding="utf_8") as f:
+                writer = csv.writer(f)
+                writer.writerows(data_row)
+            
+                
+            
+        
+    
 def main():
     rclpy.init()
     
