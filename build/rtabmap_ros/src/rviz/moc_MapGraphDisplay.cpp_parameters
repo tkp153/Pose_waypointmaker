@@ -1,0 +1,12 @@
+-I/root/Pose_waypointmaker/src/rtabmap_ros/include
+-I/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20
+-I/usr/include/pcl-1.10
+-I/usr/include/eigen3
+-I/usr/include
+-I/opt/ros/foxy/opt/rviz_ogre_vendor/include/OGRE
+-DNAV_MSGS_FOXY
+-DROS_PACKAGE_NAME="rtabmap_ros"
+-DPRE_ROS_HUMBLE
+-o
+/root/Pose_waypointmaker/build/rtabmap_ros/src/rviz/moc_MapGraphDisplay.cpp
+/root/Pose_waypointmaker/src/rtabmap_ros/src/rviz/MapGraphDisplay.h

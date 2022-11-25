@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rtabmap_ros/msg/MapGraph.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Transform.idl"
+#include "rtabmap_ros/msg/Link.idl"
+#include "std_msgs/msg/Header.idl"
+
+module rtabmap_ros {
+  module msg {
+    struct MapGraph {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "#" "\n"
+        " /map to /odom transform" "\n"
+        " Always identity when the graph is optimized from the latest pose." "\n"
+        "#")
+      geometry_msgs::msg::Transform map_to_odom;
+
+      @verbatim (language="comment", text=
+        " The poses")
+      sequence<int32> poses_id;
+
+      sequence<geometry_msgs::msg::Pose> poses;
+
+      @verbatim (language="comment", text=
+        " The links")
+      sequence<rtabmap_ros::msg::Link> links;
+    };
+  };
+};

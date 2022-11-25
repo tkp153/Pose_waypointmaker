@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rtabmap_ros/srv/GetNodeData.srv
+// generated code does not contain a copyright notice
+
+#include "rtabmap_ros/msg/NodeData.idl"
+
+module rtabmap_ros {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct GetNodeData_Request {
+      sequence<int32> ids;
+
+      boolean images;
+
+      boolean scan;
+
+      boolean grid;
+
+      boolean user_data;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct GetNodeData_Response {
+      sequence<rtabmap_ros::msg::NodeData> data;
+    };
+  };
+};

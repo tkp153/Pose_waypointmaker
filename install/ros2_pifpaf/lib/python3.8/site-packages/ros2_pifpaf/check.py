@@ -44,7 +44,7 @@ class check(Node):
                 i += 1
 
                 m.type = Marker.SPHERE
-                float_value = np.array(k[:3] / 100.0,dtype=float)
+                float_value = np.array(k[:3] / 200.0,dtype=float)
                 m.pose.position.x, m.pose.position.y, m.pose.position.z = float_value #k[:3] / 100.0
                 #m.pose.orientation = Quaternion(0, 0, 0, 1) error起きる
                 m.pose.orientation.x,m.pose.orientation.y,m.pose.orientation.z,m.pose.orientation.w =np.array([0,0,0,1],dtype=float)

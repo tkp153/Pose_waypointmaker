@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Pose_waypointmaker/src/rtabmap/corelib/src/rtflann/ext/lz4.c
+lz4.h
+/root/Pose_waypointmaker/src/rtabmap/corelib/src/rtflann/ext/lz4.h
+intrin.h
+-
+stdlib.h
+-
+string.h
+-
+stdint.h
+-
+
+/root/Pose_waypointmaker/src/rtabmap/corelib/src/rtflann/ext/lz4.h
+
+/root/Pose_waypointmaker/src/rtabmap/corelib/src/rtflann/ext/lz4hc.c
+lz4hc.h
+/root/Pose_waypointmaker/src/rtabmap/corelib/src/rtflann/ext/lz4hc.h
+lz4.c
+/root/Pose_waypointmaker/src/rtabmap/corelib/src/rtflann/ext/lz4.c
+
+/root/Pose_waypointmaker/src/rtabmap/corelib/src/rtflann/ext/lz4hc.h
+stddef.h
+-
+

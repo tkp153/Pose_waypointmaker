@@ -1,0 +1,3 @@
+[console_scripts]
+pifpaf_navi = pifpaf_navi.pifpaf_navi:main
+

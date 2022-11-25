@@ -1,0 +1,280 @@
+[0.068s] Invoking command in '/root/Pose_waypointmaker/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /root/Pose_waypointmaker/build/rtabmap -- -j12 -l12
+[0.681s] [  4%] Built target rtabmap_utilite
+[0.682s] [  6%] Built target imagesJoiner
+[0.682s] [  6%] Built target res_tool
+[0.682s] [  6%] Built target extractObject
+[0.682s] [ 42%] Built target rtabmap_core
+[0.682s] [ 43%] Built target consoleApp
+[0.682s] [ 43%] Built target camera
+[0.683s] [ 44%] Built target stereoEval
+[0.683s] [ 45%] Built target kitti_dataset
+[0.685s] [ 46%] Built target rgbd_dataset
+[0.686s] [ 46%] Built target euroc_dataset
+[0.687s] [ 47%] Built target recovery
+[0.687s] [ 48%] Built target detectMoreLoopClosures
+[0.688s] [ 49%] Built target export
+[0.688s] [ 49%] Built target reprocess
+[0.689s] [ 49%] Built target info
+[0.690s] [ 49%] Built target bow_mapping
+[0.691s] [ 50%] Built target cleanupLocalGrids
+[0.692s] [ 51%] Built target globalBundleAdjustment
+[0.692s] [ 52%] Built target rgbd_camera
+[0.728s] [ 91%] Built target rtabmap_gui
+[0.813s] [ 92%] Built target report
+[0.816s] [ 93%] Built target databaseViewer
+[0.821s] [ 93%] Built target epipolar_geometry
+[0.830s] [ 93%] Built target odometryViewer
+[0.834s] [ 94%] Built target calibration
+[0.834s] [ 94%] Built target dataRecorder
+[0.834s] [ 94%] Built target matcher
+[0.842s] [ 96%] Built target rgbd_mapping
+[0.844s] [ 96%] Built target rtabmap
+[0.850s] [ 98%] Built target wifi_mapping
+[0.854s] [100%] Built target noEventsExample
+[0.870s] Invoked command in '/root/Pose_waypointmaker/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /root/Pose_waypointmaker/build/rtabmap -- -j12 -l12
+[0.979s] Invoking command in '/root/Pose_waypointmaker/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /root/Pose_waypointmaker/build/rtabmap
+[0.993s] -- Install configuration: "Release"
+[0.993s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/RTABMapConfig.cmake
+[0.994s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/RTABMapConfigVersion.cmake
+[0.994s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/share/rtabmap/package.xml
+[0.994s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/lib/librtabmap_utilite.so.0.20.22
+[0.994s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/lib/librtabmap_utilite.so.0.20
+[0.995s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/lib/librtabmap_utilite.so
+[0.995s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20
+[0.995s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap
+[0.995s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite
+[0.995s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UThreadC.h
+[0.996s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Posix
+[0.996s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Posix/UThreadC.h
+[0.996s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UObjDeletionThread.h
+[0.996s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/ULogger.h
+[0.996s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UFile.h
+[0.996s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UException.h
+[0.997s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UThread.h
+[0.997s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UEventsManager.h
+[0.997s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UDestroyer.h
+[0.997s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UtiLite.h
+[0.997s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UStl.h
+[0.997s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UMutex.h
+[0.997s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UThreadNode.h
+[0.998s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UVariant.h
+[0.998s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Win32
+[0.998s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Win32/UThreadC.h
+[0.998s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Win32/UWin32.h
+[0.998s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UTimer.h
+[0.998s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UMath.h
+[0.999s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UDirectory.h
+[0.999s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UEvent.h
+[0.999s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UConversion.h
+[1.000s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UEventsHandler.h
+[1.000s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UtiLiteExp.h
+[1.000s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/USemaphore.h
+[1.000s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UEventsSender.h
+[1.001s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UProcessInfo.h
+[1.001s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-res_tool-0.3.0
+[1.001s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-res_tool
+[1.001s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/lib/librtabmap_core.so.0.20.22
+[1.001s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/lib/librtabmap_core.so.0.20
+[1.002s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/lib/librtabmap_core.so
+[1.002s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20
+[1.002s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap
+[1.002s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core
+[1.003s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/ParticleFilter.h
+[1.003s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/ProgressState.h
+[1.003s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry
+[1.004s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryOpen3D.h
+[1.004s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryFovis.h
+[1.004s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryF2F.h
+[1.004s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryOkvis.h
+[1.005s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryViso2.h
+[1.005s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryORBSLAM.h
+[1.005s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryMono.h
+[1.005s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryMSCKF.h
+[1.005s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryLOAM.h
+[1.006s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryF2M.h
+[1.006s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryDVO.h
+[1.007s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryVINS.h
+[1.007s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryFLOAM.h
+[1.008s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryOpenVINS.h
+[1.008s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Image.h
+[1.009s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/RegistrationInfo.h
+[1.010s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraThread.h
+[1.012s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/GeodeticCoords.h
+[1.012s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraInfo.h
+[1.013s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Stereo.h
+[1.014s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_registration.h
+[1.014s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Statistics.h
+[1.015s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/OdometryEvent.h
+[1.015s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/EpipolarGeometry.h
+[1.015s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Graph.h
+[1.015s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_motion_estimation.h
+[1.015s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/IMU.h
+[1.016s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Rtabmap.h
+[1.016s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/DBReader.h
+[1.016s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraModel.h
+[1.016s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d.h
+[1.016s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/RegistrationVis.h
+[1.017s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/OctoMap.h
+[1.017s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraRGB.h
+[1.017s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/BayesFilter.h
+[1.017s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/IMUThread.h
+[1.017s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Memory.h
+[1.018s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/clams
+[1.019s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/clams/slam_calibrator.h
+[1.019s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/clams/discrete_depth_distortion_model.h
+[1.019s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/clams/frame_projector.h
+[1.019s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/PythonInterface.h
+[1.020s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/GainCompensator.h
+[1.020s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Landmark.h
+[1.020s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/RtabmapThread.h
+[1.020s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/PDALWriter.h
+[1.021s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/StereoCameraModel.h
+[1.021s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Link.h
+[1.021s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/stereo
+[1.021s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/stereo/StereoSGBM.h
+[1.022s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/stereo/StereoBM.h
+[1.022s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/stereo/stereoRectifyFisheye.h
+[1.022s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/StereoDense.h
+[1.022s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_features.h
+[1.022s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/OdometryInfo.h
+[1.023s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util2d.h
+[1.023s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/DBDriver.h
+[1.023s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_correspondences.h
+[1.024s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/SensorData.h
+[1.024s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/RtabmapEvent.h
+[1.025s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/ParamEvent.h
+[1.025s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_transforms.h
+[1.025s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/UserDataEvent.h
+[1.025s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Transform.h
+[1.026s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/MarkerDetector.h
+[1.027s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/FlannIndex.h
+[1.027s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Camera.h
+[1.027s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer
+[1.027s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerGTSAM.h
+[1.027s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerCVSBA.h
+[1.028s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerTORO.h
+[1.028s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerCeres.h
+[1.028s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerG2O.h
+[1.028s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraRGBD.h
+[1.029s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Parameters.h
+[1.030s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/GPS.h
+[1.030s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/OdometryThread.h
+[1.031s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Odometry.h
+[1.031s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/impl
+[1.031s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/impl/util3d_mapping.hpp
+[1.031s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/impl/OccupancyGrid.hpp
+[1.031s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/impl/util3d.hpp
+[1.032s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/impl/util3d_surface.hpp
+[1.032s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/RtabmapExp.h
+[1.032s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Compression.h
+[1.032s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Features2d.h
+[1.032s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/DBDriverSqlite3.h
+[1.033s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_mapping.h
+[1.033s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/LaserScan.h
+[1.033s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/EnvSensor.h
+[1.033s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraStereo.h
+[1.034s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_filtering.h
+[1.034s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Signature.h
+[1.034s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Recovery.h
+[1.034s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraEvent.h
+[1.034s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/OccupancyGrid.h
+[1.034s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/IMUFilter.h
+[1.037s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Registration.h
+[1.038s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/RegistrationIcp.h
+[1.039s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_surface.h
+[1.040s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera
+[1.042s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraOpenni.h
+[1.045s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraRGBDImages.h
+[1.045s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraFreenect.h
+[1.045s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoFlyCapture2.h
+[1.046s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoZed.h
+[1.046s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoZedOC.h
+[1.046s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraDepthAI.h
+[1.046s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraRealSense2.h
+[1.047s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoTara.h
+[1.047s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoImages.h
+[1.047s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraImages.h
+[1.048s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraK4W2.h
+[1.048s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraOpenNICV.h
+[1.052s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraFreenect2.h
+[1.053s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraMyntEye.h
+[1.053s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraVideo.h
+[1.054s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoVideo.h
+[1.054s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraRealSense.h
+[1.055s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraK4A.h
+[1.056s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraOpenNI2.h
+[1.056s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoDC1394.h
+[1.057s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Optimizer.h
+[1.058s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/VWDictionary.h
+[1.058s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/GlobalDescriptor.h
+[1.059s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/VisualWord.h
+[1.060s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20
+[1.060s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap
+[1.062s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core
+[1.063s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/core/Version.h
+[1.066s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/lib/librtabmap_gui.so.0.20.22
+[1.072s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/lib/librtabmap_gui.so.0.20
+[1.076s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/lib/librtabmap_gui.so
+[1.077s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20
+[1.077s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap
+[1.077s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui
+[1.077s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/KeypointItem.h
+[1.077s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/OdometryViewer.h
+[1.077s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/DepthCalibrationDialog.h
+[1.077s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/EditConstraintDialog.h
+[1.078s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/MultiSessionLocWidget.h
+[1.078s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/PreferencesDialog.h
+[1.078s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/EditDepthArea.h
+[1.078s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/EditMapArea.h
+[1.078s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/LoopClosureViewer.h
+[1.078s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/MapVisibilityWidget.h
+[1.078s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/CloudViewerInteractorStyle.h
+[1.078s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/StatsToolBox.h
+[1.079s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ConsoleWidget.h
+[1.079s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/CloudViewer.h
+[1.079s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ParametersToolBox.h
+[1.079s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/CreateSimpleCalibrationDialog.h
+[1.079s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ExportDialog.h
+[1.079s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/RecoveryState.h
+[1.079s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/GraphViewer.h
+[1.080s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/AboutDialog.h
+[1.080s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/CalibrationDialog.h
+[1.080s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/RtabmapGuiExp.h
+[1.080s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/MainWindow.h
+[1.080s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/TexturingState.h
+[1.080s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/PostProcessingDialog.h
+[1.080s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/DataRecorder.h
+[1.080s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/MultiSessionLocSubView.h
+[1.081s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ExportBundlerDialog.h
+[1.081s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ImageView.h
+[1.081s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ExportCloudsDialog.h
+[1.081s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/CloudViewerCellPicker.h
+[1.081s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/DatabaseViewer.h
+[1.081s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/CameraViewer.h
+[1.081s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/ProgressDialog.h
+[1.081s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/gui/PdfPlot.h
+[1.082s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite
+[1.082s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UPlot.h
+[1.082s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UImageView.h
+[1.083s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UCv2Qt.h
+[1.083s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap
+[1.084s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-console
+[1.084s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-extractObject
+[1.084s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-camera
+[1.085s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-kitti_dataset
+[1.085s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-rgbd_dataset
+[1.085s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-euroc_dataset
+[1.085s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-recovery
+[1.086s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-reprocess
+[1.086s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-detectMoreLoopClosures
+[1.086s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-export
+[1.086s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-report
+[1.086s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-info
+[1.087s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-cleanupLocalGrids
+[1.087s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-globalBundleAdjustment
+[1.087s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-rgbd_camera
+[1.087s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-databaseViewer
+[1.087s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-odometryViewer
+[1.087s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-dataRecorder
+[1.087s] -- Up-to-date: /root/Pose_waypointmaker/install/rtabmap/bin/rtabmap-calibration
+[1.089s] Invoked command in '/root/Pose_waypointmaker/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /root/Pose_waypointmaker/build/rtabmap

@@ -1,0 +1,24 @@
+[1.265s] Invoking command in '/root/Pose_waypointmaker/src/pifpaf_navi': PYTHONPATH=/root/Pose_waypointmaker/build/pifpaf_navi/prefix_override:/root/Pose_waypointmaker/install/pifpaf_navi/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pifpaf_navi build --build-base /root/Pose_waypointmaker/build/pifpaf_navi/build install --record /root/Pose_waypointmaker/build/pifpaf_navi/install.log --install-scripts $base/lib/pifpaf_navi --single-version-externally-managed
+[1.525s] running egg_info
+[1.526s] writing ../../build/pifpaf_navi/pifpaf_navi.egg-info/PKG-INFO
+[1.526s] writing dependency_links to ../../build/pifpaf_navi/pifpaf_navi.egg-info/dependency_links.txt
+[1.526s] writing entry points to ../../build/pifpaf_navi/pifpaf_navi.egg-info/entry_points.txt
+[1.526s] writing requirements to ../../build/pifpaf_navi/pifpaf_navi.egg-info/requires.txt
+[1.527s] writing top-level names to ../../build/pifpaf_navi/pifpaf_navi.egg-info/top_level.txt
+[1.560s] reading manifest file '../../build/pifpaf_navi/pifpaf_navi.egg-info/SOURCES.txt'
+[1.561s] writing manifest file '../../build/pifpaf_navi/pifpaf_navi.egg-info/SOURCES.txt'
+[1.561s] running build
+[1.561s] running build_py
+[1.561s] copying pifpaf_navi/raise_navigator.py -> /root/Pose_waypointmaker/build/pifpaf_navi/build/lib/pifpaf_navi
+[1.562s] running install
+[1.562s] running install_lib
+[1.563s] copying /root/Pose_waypointmaker/build/pifpaf_navi/build/lib/pifpaf_navi/raise_navigator.py -> /root/Pose_waypointmaker/install/pifpaf_navi/lib/python3.8/site-packages/pifpaf_navi
+[1.564s] byte-compiling /root/Pose_waypointmaker/install/pifpaf_navi/lib/python3.8/site-packages/pifpaf_navi/raise_navigator.py to raise_navigator.cpython-38.pyc
+[1.566s] running install_data
+[1.566s] running install_egg_info
+[1.568s] removing '/root/Pose_waypointmaker/install/pifpaf_navi/lib/python3.8/site-packages/pifpaf_navi-0.0.0-py3.8.egg-info' (and everything under it)
+[1.568s] Copying ../../build/pifpaf_navi/pifpaf_navi.egg-info to /root/Pose_waypointmaker/install/pifpaf_navi/lib/python3.8/site-packages/pifpaf_navi-0.0.0-py3.8.egg-info
+[1.569s] running install_scripts
+[1.586s] Installing pifpaf_navi script to /root/Pose_waypointmaker/install/pifpaf_navi/lib/pifpaf_navi
+[1.586s] writing list of installed files to '/root/Pose_waypointmaker/build/pifpaf_navi/install.log'
+[1.638s] Invoked command in '/root/Pose_waypointmaker/src/pifpaf_navi' returned '0': PYTHONPATH=/root/Pose_waypointmaker/build/pifpaf_navi/prefix_override:/root/Pose_waypointmaker/install/pifpaf_navi/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pifpaf_navi build --build-base /root/Pose_waypointmaker/build/pifpaf_navi/build install --record /root/Pose_waypointmaker/build/pifpaf_navi/install.log --install-scripts $base/lib/pifpaf_navi --single-version-externally-managed

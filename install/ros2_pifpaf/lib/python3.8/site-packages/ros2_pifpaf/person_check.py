@@ -7,7 +7,7 @@ import time
 <Memo>
 このプログラムは、openpifpafの3次元のデータのkeypointsのデータをサブスクライバーし、keypointsの重心を求めそれぞれの人の座標を入手するのを加えて人が挙手したらその情報を記録するプログラムである。
 '''
-
+timer_previous =time.time()
 
 class person_checker(Node):
     def __init__(self):
@@ -27,12 +27,18 @@ class person_checker(Node):
         self.count_L = 0
         self.count_R = 0
         
+        
+        
+        
     def status_checker(self,data):
         
         #　人の重心座標（すべて）
         Output0 = Transforms()
         #挙手された人の重心座標
         Output2 = Transform()
+        timer = time.time()
+        
+        global timer_previous
         
         
         for person in data.poses:
@@ -61,7 +67,7 @@ class person_checker(Node):
             #一人の処理↓
             for k in keypoints:
                 
-                float_value = np.array(k[:3] / 100.0,dtype=float)
+                float_value = np.array(k[:3] / 200.0,dtype=float)
                 #座標抽出
                 x_pos,y_pos,z_pos = float_value
                 
@@ -73,22 +79,24 @@ class person_checker(Node):
                     z_sum_list.append(z_pos)
                     key_points_count += 1
                     
+                    
                     #重心計算処理条件分岐
                     if(key_num == num_keypoints -1 and key_points_count == 4):
+                        '''
                         #重心計算関数実行
                         Result_Of_Center_Gravity = self.CenterOfGravity(x_sum_list, y_sum_list, z_sum_list)
                         
                         print(Result_Of_Center_Gravity)
+                        if Result_Of_Center_Gravity is not True:
+                            Output1.transform.translation.x,Output1.transform.translation.y,Output1.transform.translation.z = Result_Of_Center_Gravity
+                            Output1.transform.rotation.x = 0.0
+                            Output1.transform.rotation.y = 0.0
+                            Output1.transform.rotation.z = 0.0
+                            Output1.transform.rotation.w = 1.0
                         
-                        Output1.transform.translation.x,Output1.transform.translation.y,Output1.transform.translation.z = Result_Of_Center_Gravity
-                        Output1.transform.rotation.x = 0.0
-                        Output1.transform.rotation.y = 0.0
-                        Output1.transform.rotation.z = 0.0
-                        Output1.transform.rotation.w = 1.0
-                        
-                        Output0.transforms.append(Output1)
-                        OutPut_Cashes = Output1
-                
+                            Output0.transforms.append(Output1)
+                            #OutPut_Cashes = Output1
+                    '''
                 #挙手検出エリア
                 
                 '''
@@ -139,16 +147,39 @@ class person_checker(Node):
                 '''
                 メモ；　もし人が手を挙げた場合，その手を挙げた人の重心座標を別でパブリッシュを実施するものをスクリプトで製作する。
                 '''
-                if(key_num == num_keypoints - 1):
-                    if(L_Raise_Hand == True and R_Raise_Hand == True):
-                        self.pub_2.publish(Output1)
-                    elif(L_Raise_Hand == True):
-                        print("You are Raise the Hand")
-                        self.pub_2.publish(Output1)
-                    elif(R_Raise_Hand == True):
-                        print("You are Raise the Hand")
-                        self.pub_2.publish(Output1)
-                
+                if(key_num == num_keypoints - 1 and key_points_count == 4):
+                    #重心計算関数実行
+                    Result_Of_Center_Gravity = self.CenterOfGravity(x_sum_list, y_sum_list, z_sum_list)
+                        
+                    #print(Result_Of_Center_Gravity)
+                    if Result_Of_Center_Gravity is not None:
+                        Output1.transform.translation.x,Output1.transform.translation.y,Output1.transform.translation.z = Result_Of_Center_Gravity
+                        Output1.transform.rotation.x = 0.0
+                        Output1.transform.rotation.y = 0.0
+                        Output1.transform.rotation.z = 0.0
+                        Output1.transform.rotation.w = 1.0
+                        
+                        Output0.transforms.append(Output1)
+                    
+                    
+                    #print("timer: {}".format(timer))
+                    #print("pre_timer:{}".format(timer_previous) )
+                    if(Result_Of_Center_Gravity is not None):
+                    
+                        if(L_Raise_Hand == True and R_Raise_Hand == True):
+                            self.pub_2.publish(Output1)
+                            timer_previous = timer
+                        elif(L_Raise_Hand == True):
+                            print("You are Raise the Hand")
+                            self.pub_2.publish(Output1)
+                            timer_previous = timer
+                        elif(R_Raise_Hand == True):
+                            print("You are Raise the Hand")
+                            self.pub_2.publish(Output1)
+                            timer_previous = timer
+
+                        
+                        
         #人の重心座標パブリッシュ
         self.pub_1.publish(Output0)       
                 
@@ -172,6 +203,7 @@ class person_checker(Node):
             Z_Center = sum(Z_data) / 4
             
             CenterOfGravity = np.array([X_Center, Y_Center, Z_Center])
+            #if CenterOfGravity is None:
             
             return CenterOfGravity
     
@@ -193,8 +225,11 @@ class person_checker(Node):
         #COSθを計算
         COS_Theta = Dot / (Length1 * Length2)
         Theta = np.arccos(COS_Theta) * 180 / np.pi
-        print(Theta)
-        
+        #print(Theta)
+        if Theta is None:
+            Theta = 180
+            print("Object is None")
+        #print(Theta)
         return Theta
     
     def raise_hand_checker(self,Theta,Point1,Point2,hand_switch):
@@ -212,7 +247,7 @@ class person_checker(Node):
                 
                 #４フレーム以上カウントされていた場合；Output　-> 挙手（左手）
                 #TODO フレーム調整する必要あるかも...
-                if(self.count_L > 3):
+                if(self.count_L > 2):
                     return True
                 else:
                     return False
@@ -225,7 +260,7 @@ class person_checker(Node):
                 
                 self.count_R += 1
                 
-                if(self.count_R > 3):
+                if(self.count_R > 2):
                     return True
                 else:
                     return False

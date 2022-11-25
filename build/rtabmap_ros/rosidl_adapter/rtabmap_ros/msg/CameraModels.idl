@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rtabmap_ros/msg/CameraModels.msg
+// generated code does not contain a copyright notice
+
+#include "rtabmap_ros/msg/CameraModel.idl"
+
+module rtabmap_ros {
+  module msg {
+    struct CameraModels {
+      sequence<rtabmap_ros::msg::CameraModel> models;
+    };
+  };
+};

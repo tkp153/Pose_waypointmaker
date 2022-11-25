@@ -1,0 +1,980 @@
+[  2%] Built target rtabmap_ros__cpp
+[ 11%] Built target rtabmap_ros__rosidl_generator_c
+[ 21%] Built target rtabmap_ros__rosidl_typesupport_cpp
+[ 31%] Built target rtabmap_ros__rosidl_typesupport_c
+[ 41%] Built target rtabmap_ros__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target rtabmap_ros__rosidl_typesupport_introspection_cpp
+[ 61%] Built target rtabmap_ros__rosidl_typesupport_introspection_c
+[ 71%] Built target rtabmap_ros__rosidl_typesupport_fastrtps_c
+[ 71%] Built target rtabmap_ros
+[ 72%] Built target rtabmap_ros__py
+[ 73%] Built target rtabmap_common
+[ 82%] Built target rtabmap_ros__python
+[ 83%] Built target rtabmap_ros__rosidl_typesupport_fastrtps_c__pyext
+[ 83%] Built target rtabmap_ros__rosidl_typesupport_introspection_c__pyext
+[ 86%] Built target rtabmap_rviz_plugins
+[ 87%] Built target rtabmap_ros__rosidl_typesupport_c__pyext
+[ 89%] Built target rtabmap_sync
+[ 93%] Built target rtabmap_plugins
+[ 93%] [32mBuilding CXX object CMakeFiles/rtabmap.dir/src/CoreNode.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/rtabmapviz.dir/src/GuiWrapper.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/rtabmapviz.dir/src/GuiNode.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_assembler.dir/src/PointCloudAssemblerNode.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_xyz.dir/src/PointCloudXYZNode.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/rtabmap_point_cloud_xyzrgb.dir/src/PointCloudXYZRGBNode.cpp.o[0m
+[ 95%] Built target rtabmap_pointcloud_to_depthimage
+[ 95%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_odometry.dir/src/StereoOdometryNode.cpp.o[0m
+[ 95%] Built target rtabmap_point_cloud_aggregator
+[ 96%] Built target rtabmap_stereo_sync
+[ 96%] [32mBuilding CXX object CMakeFiles/rtabmapviz.dir/src/PreferencesDialogROS.cpp.o[0m
+[ 96%] Built target rtabmap_rgbd_sync
+[ 96%] [32mBuilding CXX object CMakeFiles/rtabmap_obstacles_detection.dir/src/ObstaclesDetectionNode.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbdx_sync.dir/src/RGBDXSyncNode.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_icp_odometry[0m
+[35m[1mScanning dependencies of target rtabmap_rgbd_odometry[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/rtabmap_icp_odometry.dir/src/ICPOdometryNode.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_odometry.dir/src/RGBDOdometryNode.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable rgbdx_sync[0m
+[ 97%] [32m[1mLinking CXX executable point_cloud_xyz[0m
+In file included from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/include/rtabmap_ros/MsgConversion.h:49[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/include/rtabmap_ros/point_cloud_assembler.hpp:40[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/src/PointCloudAssemblerNode.cpp:28[m[K:
+[01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Statistics.h:244:165:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  244 |  RTABMAP_DEPRECATED(void setLastSignatureData(const Signature & data) {_signaturesData.insert(std::make_pair(data.id(), data));}, "Use addSignatureData() instead.")[01;35m[K;[m[K
+      |                                                                                                                                                                     [01;35m[K^[m[K
+      |                                                                                                                                                                     [31m[K-[m[K
+[ 97%] [32m[1mLinking CXX executable point_cloud_xyzrgb[0m
+[ 97%] Built target rtabmap_rgbdx_sync
+In file included from [01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/RtabmapEvent.h:35[m[K,
+                 from [01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/gui/MainWindow.h:36[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/src/GuiWrapper.cpp:41[m[K:
+[01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Statistics.h:244:165:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  244 |  RTABMAP_DEPRECATED(void setLastSignatureData(const Signature & data) {_signaturesData.insert(std::make_pair(data.id(), data));}, "Use addSignatureData() instead.")[01;35m[K;[m[K
+      |                                                                                                                                                                     [01;35m[K^[m[K
+      |                                                                                                                                                                     [31m[K-[m[K
+In file included from [01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Rtabmap.h:35[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/include/rtabmap_ros/CoreWrapper.h:53[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/src/CoreNode.cpp:28[m[K:
+[01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Statistics.h:244:165:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  244 |  RTABMAP_DEPRECATED(void setLastSignatureData(const Signature & data) {_signaturesData.insert(std::make_pair(data.id(), data));}, "Use addSignatureData() instead.")[01;35m[K;[m[K
+      |                                                                                                                                                                     [01;35m[K^[m[K
+      |                                                                                                                                                                     [31m[K-[m[K
+In file included from [01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/RtabmapEvent.h:35[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/src/PreferencesDialogROS.cpp:36[m[K:
+[01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Statistics.h:244:165:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  244 |  RTABMAP_DEPRECATED(void setLastSignatureData(const Signature & data) {_signaturesData.insert(std::make_pair(data.id(), data));}, "Use addSignatureData() instead.")[01;35m[K;[m[K
+      |                                                                                                                                                                     [01;35m[K^[m[K
+      |                                                                                                                                                                     [31m[K-[m[K
+In file included from [01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/RtabmapEvent.h:35[m[K,
+                 from [01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/gui/MainWindow.h:36[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/src/GuiNode.cpp:32[m[K:
+[01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Statistics.h:244:165:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  244 |  RTABMAP_DEPRECATED(void setLastSignatureData(const Signature & data) {_signaturesData.insert(std::make_pair(data.id(), data));}, "Use addSignatureData() instead.")[01;35m[K;[m[K
+      |                                                                                                                                                                     [01;35m[K^[m[K
+      |                                                                                                                                                                     [31m[K-[m[K
+[ 97%] [32m[1mLinking CXX executable obstacles_detection[0m
+[ 98%] [32m[1mLinking CXX executable rgbd_odometry[0m
+[ 99%] [32m[1mLinking CXX executable icp_odometry[0m
+[ 99%] [32m[1mLinking CXX executable point_cloud_assembler[0m
+[ 99%] [32m[1mLinking CXX executable stereo_odometry[0m
+[ 99%] Built target rtabmap_point_cloud_xyz
+[ 99%] Built target rtabmap_point_cloud_xyzrgb
+[ 99%] [32m[1mLinking CXX executable rtabmap[0m
+[ 99%] Built target rtabmap_obstacles_detection
+[ 99%] Built target rtabmap_point_cloud_assembler
+[ 99%] Built target rtabmap_rgbd_odometry
+[ 99%] Built target rtabmap_stereo_odometry
+[ 99%] Built target rtabmap_icp_odometry
+[ 99%] Built target rtabmap
+[100%] [32m[1mLinking CXX executable rtabmapviz[0m
+[100%] Built target rtabmapviz
+[35m[1mScanning dependencies of target rtabmap_rgbd_relay[0m
+[35m[1mScanning dependencies of target rtabmap_rgb_sync[0m
+[100%] [32mBuilding CXX object CMakeFiles/rtabmap_rgb_sync.dir/src/RGBSyncNode.cpp.o[0m
+[100%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_relay.dir/src/RGBDRelayNode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rgbd_relay[0m
+[100%] [32m[1mLinking CXX executable rgb_sync[0m
+[100%] Built target rtabmap_rgbd_relay
+[100%] Built target rtabmap_rgb_sync
+-- Install configuration: ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/ament_index/resource_index/rosidl_interfaces/rtabmap_ros
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/get_nodes_in_radius.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/cleanup_local_grids.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/publish_map.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/set_label.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/reset_pose.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/get_map.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/add_link.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/global_bundle_adjustment.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/get_map2.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/list_labels.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/remove_label.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/get_plan.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/load_database.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/get_node_data.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detect_more_loop_closures.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/set_goal.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/map_data.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/map_graph.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/global_descriptor.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/path.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_models__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_models__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_model__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_model__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_model__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_models__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__type_support.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_model__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__struct.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_models__functions.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__functions.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/point3f.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/info.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/node_data.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/rgbd_images.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/odom_info.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/camera_models.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/env_sensor.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/key_point.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/user_data.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/scan_descriptor.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/gps.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/camera_model.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/goal.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/rgbd_image.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/point2f.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/link.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/environment/library_path.sh
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/environment/library_path.dsv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_generator_c.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_generator_c.so" to ""
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_model__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_models__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__rosidl_typesupport_fastrtps_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/dds_fastrtps
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_models__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_model__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/dds_fastrtps
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__type_support.c
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_model__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_model__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_models__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_models__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__rosidl_typesupport_introspection_c.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__type_support.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_c.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/list_labels.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/get_map2.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detect_more_loop_closures.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/remove_label.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/cleanup_local_grids.hpp
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/get_plan.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/global_bundle_adjustment.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/get_node_data.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/set_goal.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/add_link.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/load_database.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/get_map.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/publish_map.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/reset_pose.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/get_nodes_in_radius.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/set_label.hpp
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/point2f.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/camera_model.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/node_data.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/goal.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/path.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/rgbd_image.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/gps.hpp
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_models__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_model__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_models__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_model__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_model__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__traits.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_models__struct.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__builder.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/link.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/odom_info.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/user_data.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/point3f.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/key_point.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/camera_models.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/rgbd_images.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/env_sensor.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/scan_descriptor.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/info.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/map_graph.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/global_descriptor.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/map_data.hpp
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_goal__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/list_labels__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_nodes_in_radius__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/global_bundle_adjustment__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/detect_more_loop_closures__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/publish_map__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_node_data__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map2__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/load_database__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/add_link__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/reset_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/remove_label__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/set_label__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/cleanup_local_grids__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/link__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point2f__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_models__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_images__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_graph__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_model__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/path__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/global_descriptor__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_models__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/node_data__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/scan_descriptor__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/map_data__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/rgbd_image__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/point3f__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/key_point__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/user_data__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/gps__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/goal__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/camera_model__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/env_sensor__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/msg/detail/odom_info__type_support.cpp
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_cpp.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__rosidl_typesupport_cpp.so" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/environment/pythonpath.sh
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/environment/pythonpath.dsv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/__init__.py
+Compiling '/root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/__init__.py'...
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_global_descriptor.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_point3f_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_gps_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_gps.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_map_graph_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_rgbd_images_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_point2f_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_goal_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_scan_descriptor.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_info.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_user_data_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_rgbd_image.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_link_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_camera_models_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_point3f.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_env_sensor_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_odom_info_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_path.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_node_data.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_scan_descriptor_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_info_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_key_point.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_global_descriptor_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_map_graph.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_point2f.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_user_data.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_camera_model_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_map_data.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_rgbd_image_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_odom_info.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_rgbd_images.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_key_point_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_link.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_path_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/__init__.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_node_data_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_map_data_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_camera_model.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_goal.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_camera_models.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/msg/_env_sensor.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_plan_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_remove_label_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_map2_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_global_bundle_adjustment.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_nodes_in_radius.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_detect_more_loop_closures_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_add_link.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_node_data.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_reset_pose_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_reset_pose.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_set_label.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_set_goal_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_detect_more_loop_closures.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_map2.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_publish_map_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_set_label_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_load_database.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_plan.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_add_link_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_cleanup_local_grids_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_list_labels_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_load_database_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_map.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_global_bundle_adjustment_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_cleanup_local_grids.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_nodes_in_radius_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_set_goal.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_node_data_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_publish_map.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_list_labels.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_remove_label.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/__init__.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/srv/_get_map_s.c
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/rtabmap_ros_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/rtabmap_ros_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/rtabmap_ros_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/rtabmap_ros_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/rtabmap_ros_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages/rtabmap_ros/rtabmap_ros_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__python.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_ros__python.so" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/Info.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/KeyPoint.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/GlobalDescriptor.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/ScanDescriptor.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/MapData.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/MapGraph.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/NodeData.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/Link.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/OdomInfo.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/Point2f.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/Point3f.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/Goal.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/RGBDImage.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/RGBDImages.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/UserData.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/GPS.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/Path.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/EnvSensor.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/CameraModel.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/CameraModels.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap2.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/ListLabels.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/PublishMap.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/ResetPose.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/SetGoal.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/SetLabel.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/RemoveLabel.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetPlan.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/AddLink.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodeData.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodesInRadius.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/LoadDatabase.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/DetectMoreLoopClosures.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GlobalBundleAdjustment.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/CleanupLocalGrids.idl
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/Info.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/KeyPoint.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/GlobalDescriptor.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/ScanDescriptor.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/MapData.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/MapGraph.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/NodeData.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/Link.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/OdomInfo.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/Point2f.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/Point3f.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/Goal.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/RGBDImage.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/RGBDImages.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/UserData.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/GPS.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/Path.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/EnvSensor.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/CameraModel.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/msg/CameraModels.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap2.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap2_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetMap2_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/ListLabels.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/ListLabels_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/ListLabels_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/PublishMap.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/PublishMap_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/PublishMap_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/ResetPose.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/ResetPose_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/ResetPose_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/SetGoal.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/SetGoal_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/SetGoal_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/SetLabel.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/SetLabel_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/SetLabel_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/RemoveLabel.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/RemoveLabel_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/RemoveLabel_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetPlan.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetPlan_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetPlan_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/AddLink.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/AddLink_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/AddLink_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodeData.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodeData_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodeData_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodesInRadius.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodesInRadius_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GetNodesInRadius_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/LoadDatabase.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/LoadDatabase_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/LoadDatabase_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/DetectMoreLoopClosures.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/DetectMoreLoopClosures_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/DetectMoreLoopClosures_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GlobalBundleAdjustment.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GlobalBundleAdjustment_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/GlobalBundleAdjustment_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/CleanupLocalGrids.srv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/CleanupLocalGrids_Request.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/srv/CleanupLocalGrids_Response.msg
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/rviz_plugins.xml
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_sync.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_sync.so" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_common.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_common.so" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_plugins.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_plugins.so" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/rtabmap
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/rtabmap" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/rgbd_odometry
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/rgbd_odometry" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/icp_odometry
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/icp_odometry" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/stereo_odometry
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/stereo_odometry" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/pointcloud_to_depthimage
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/pointcloud_to_depthimage" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/point_cloud_xyz
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/point_cloud_xyz" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/point_cloud_xyzrgb
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/point_cloud_xyzrgb" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/obstacles_detection
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/obstacles_detection" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/point_cloud_aggregator
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/point_cloud_aggregator" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/point_cloud_assembler
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/point_cloud_assembler" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/rgbd_sync
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/rgbd_sync" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/rgbdx_sync
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/rgbdx_sync" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/stereo_sync
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/stereo_sync" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/rgb_sync
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/rgb_sync" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/rgbd_relay
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/rgbd_relay" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/rtabmap_ros/rtabmapviz
+-- Up-to-date: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/CommonDataSubscriber.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/OdometryROS.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/MapsManager.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/visibility.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/CoreWrapper.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/GuiWrapper.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/PluginInterface.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/MsgConversion.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/PreferencesDialogROS.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/CommonDataSubscriberDefines.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/include/rtabmap_ros/GetTopicName.h
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/launch/.
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/launch/./rtabmap.launch.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/launch/./config
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/launch/./config/rgbd.rviz
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/launch/./realsense_d400.launch.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/launch/./turtlebot3_rgbd_sync.launch.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/launch/./turtlebot3_scan.launch.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/launch/./.gitignore
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/launch/./turtlebot3_rgbd.launch.py
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_rviz_plugins.so
+-- Set runtime path of "/root/Pose_waypointmaker/install/rtabmap_ros/lib/librtabmap_rviz_plugins.so" to ""
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/ament_index/resource_index/package_run_dependencies/rtabmap_ros
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/ament_index/resource_index/parent_prefix_path/rtabmap_ros
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/environment/ament_prefix_path.sh
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/environment/ament_prefix_path.dsv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/environment/path.sh
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/environment/path.dsv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/local_setup.bash
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/local_setup.sh
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/local_setup.zsh
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/local_setup.dsv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/package.dsv
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/ament_index/resource_index/packages/rtabmap_ros
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rtabmap_ros
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_generator_cExport.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_cExport.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_generator_cppExport.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_cppExport.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_ros__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/ament_index/resource_index/rclcpp_components/rtabmap_ros
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rosidl_cmake-extras.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/cmake/rtabmap_rosConfig-version.cmake
+-- Installing: /root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/package.xml

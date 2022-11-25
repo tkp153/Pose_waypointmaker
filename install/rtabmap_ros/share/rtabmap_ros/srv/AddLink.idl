@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rtabmap_ros/srv/AddLink.srv
+// generated code does not contain a copyright notice
+
+#include "rtabmap_ros/msg/Link.idl"
+
+module rtabmap_ros {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct AddLink_Request {
+      rtabmap_ros::msg::Link link;
+    };
+    @verbatim (language="comment", text=
+      "response")
+    struct AddLink_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

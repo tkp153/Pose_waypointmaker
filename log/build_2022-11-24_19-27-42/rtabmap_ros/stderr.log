@@ -1,0 +1,34 @@
+In file included from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/include/rtabmap_ros/MsgConversion.h:49[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/include/rtabmap_ros/point_cloud_assembler.hpp:40[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/src/PointCloudAssemblerNode.cpp:28[m[K:
+[01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Statistics.h:244:165:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  244 |  RTABMAP_DEPRECATED(void setLastSignatureData(const Signature & data) {_signaturesData.insert(std::make_pair(data.id(), data));}, "Use addSignatureData() instead.")[01;35m[K;[m[K
+      |                                                                                                                                                                     [01;35m[K^[m[K
+      |                                                                                                                                                                     [31m[K-[m[K
+In file included from [01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/RtabmapEvent.h:35[m[K,
+                 from [01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/gui/MainWindow.h:36[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/src/GuiWrapper.cpp:41[m[K:
+[01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Statistics.h:244:165:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  244 |  RTABMAP_DEPRECATED(void setLastSignatureData(const Signature & data) {_signaturesData.insert(std::make_pair(data.id(), data));}, "Use addSignatureData() instead.")[01;35m[K;[m[K
+      |                                                                                                                                                                     [01;35m[K^[m[K
+      |                                                                                                                                                                     [31m[K-[m[K
+In file included from [01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Rtabmap.h:35[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/include/rtabmap_ros/CoreWrapper.h:53[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/src/CoreNode.cpp:28[m[K:
+[01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Statistics.h:244:165:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  244 |  RTABMAP_DEPRECATED(void setLastSignatureData(const Signature & data) {_signaturesData.insert(std::make_pair(data.id(), data));}, "Use addSignatureData() instead.")[01;35m[K;[m[K
+      |                                                                                                                                                                     [01;35m[K^[m[K
+      |                                                                                                                                                                     [31m[K-[m[K
+In file included from [01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/RtabmapEvent.h:35[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/src/PreferencesDialogROS.cpp:36[m[K:
+[01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Statistics.h:244:165:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  244 |  RTABMAP_DEPRECATED(void setLastSignatureData(const Signature & data) {_signaturesData.insert(std::make_pair(data.id(), data));}, "Use addSignatureData() instead.")[01;35m[K;[m[K
+      |                                                                                                                                                                     [01;35m[K^[m[K
+      |                                                                                                                                                                     [31m[K-[m[K
+In file included from [01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/RtabmapEvent.h:35[m[K,
+                 from [01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/gui/MainWindow.h:36[m[K,
+                 from [01m[K/root/Pose_waypointmaker/src/rtabmap_ros/src/GuiNode.cpp:32[m[K:
+[01m[K/root/Pose_waypointmaker/install/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Statistics.h:244:165:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  244 |  RTABMAP_DEPRECATED(void setLastSignatureData(const Signature & data) {_signaturesData.insert(std::make_pair(data.id(), data));}, "Use addSignatureData() instead.")[01;35m[K;[m[K
+      |                                                                                                                                                                     [01;35m[K^[m[K
+      |                                                                                                                                                                     [31m[K-[m[K

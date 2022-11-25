@@ -1,0 +1,113 @@
+[0.622s] Invoking command in '/root/Pose_waypointmaker/build/urg_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/Pose_waypointmaker/install/pifpaf_navi:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /root/Pose_waypointmaker/src/urg_node -DCMAKE_INSTALL_PREFIX=/root/Pose_waypointmaker/install/urg_node
+[0.678s] -- The C compiler identification is GNU 9.4.0
+[0.755s] -- The CXX compiler identification is GNU 9.4.0
+[0.765s] -- Check for working C compiler: /usr/bin/cc
+[0.857s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.858s] -- Detecting C compiler ABI info
+[0.958s] -- Detecting C compiler ABI info - done
+[0.971s] -- Detecting C compile features
+[0.971s] -- Detecting C compile features - done
+[0.974s] -- Check for working CXX compiler: /usr/bin/c++
+[1.084s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.085s] -- Detecting CXX compiler ABI info
+[1.220s] -- Detecting CXX compiler ABI info - done
+[1.240s] -- Detecting CXX compile features
+[1.240s] -- Detecting CXX compile features - done
+[1.248s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.298s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.298s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.671s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[1.679s] -- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[1.769s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.785s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.969s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.046s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.405s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.407s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.409s] -- Looking for pthread.h
+[2.504s] -- Looking for pthread.h - found
+[2.504s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.614s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.614s] -- Looking for pthread_create in pthreads
+[2.696s] -- Looking for pthread_create in pthreads - not found
+[2.696s] -- Looking for pthread_create in pthread
+[2.800s] -- Looking for pthread_create in pthread - found
+[2.802s] -- Found Threads: TRUE  
+[3.002s] -- Found laser_proc: 1.0.2 (/root/sirius/sirius_ws/install/laser_proc/share/laser_proc/cmake)
+[3.157s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.250s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[3.265s] -- Found urg_c: 1.0.4001 (/root/sirius/sirius_ws/install/urg_c/share/urg_c/cmake)
+[3.268s] -- Found urg_node_msgs: 1.0.1 (/root/sirius/sirius_ws/install/urg_node_msgs/share/urg_node_msgs/cmake)
+[3.388s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.544s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.545s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/Pose_waypointmaker/src/urg_node/include>
+[3.545s] -- Configured cppcheck exclude dirs and/or files: 
+[3.552s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.552s] -- Configured cpplint exclude dirs and/or files: 
+[3.555s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.558s] -- Added test 'lint_cmake' to check CMake code style
+[3.560s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.567s] -- Added test 'uncrustify' to check C / C++ code style
+[3.567s] -- Configured uncrustify additional arguments: 
+[3.570s] -- Added test 'xmllint' to check XML markup files
+[3.581s] -- Configuring done
+[3.654s] -- Generating done
+[3.656s] -- Build files have been written to: /root/Pose_waypointmaker/build/urg_node
+[3.669s] Invoked command in '/root/Pose_waypointmaker/build/urg_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/Pose_waypointmaker/install/pifpaf_navi:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /root/Pose_waypointmaker/src/urg_node -DCMAKE_INSTALL_PREFIX=/root/Pose_waypointmaker/install/urg_node
+[3.673s] Invoking command in '/root/Pose_waypointmaker/build/urg_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/Pose_waypointmaker/install/pifpaf_navi:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /root/Pose_waypointmaker/build/urg_node -- -j12 -l12
+[3.736s] [35m[1mScanning dependencies of target urg_node_driver[0m
+[3.736s] [35m[1mScanning dependencies of target urg_node[0m
+[3.800s] [ 14%] [32mBuilding CXX object CMakeFiles/urg_node_driver.dir/rclcpp_components/node_main_urg_node_driver.cpp.o[0m
+[3.812s] [ 28%] [32mBuilding CXX object CMakeFiles/urg_node.dir/src/urg_c_wrapper.cpp.o[0m
+[3.815s] [ 42%] [32mBuilding CXX object CMakeFiles/urg_node.dir/src/urg_node.cpp.o[0m
+[8.543s] [ 57%] [32m[1mLinking CXX executable urg_node_driver[0m
+[8.794s] [ 57%] Built target urg_node_driver
+[16.713s] [ 71%] [32m[1mLinking CXX shared library liburg_node.so[0m
+[17.744s] [ 71%] Built target urg_node
+[17.844s] [35m[1mScanning dependencies of target getID[0m
+[18.045s] [ 85%] [32mBuilding CXX object CMakeFiles/getID.dir/src/get_id.cpp.o[0m
+[22.689s] [100%] [32m[1mLinking CXX executable getID[0m
+[23.470s] [100%] Built target getID
+[23.529s] Invoked command in '/root/Pose_waypointmaker/build/urg_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/Pose_waypointmaker/install/pifpaf_navi:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /root/Pose_waypointmaker/build/urg_node -- -j12 -l12
+[24.104s] Invoking command in '/root/Pose_waypointmaker/build/urg_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/Pose_waypointmaker/install/pifpaf_navi:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /root/Pose_waypointmaker/build/urg_node
+[24.132s] -- Install configuration: ""
+[24.134s] -- Installing: /root/Pose_waypointmaker/install/urg_node/lib/urg_node/urg_node_driver
+[24.141s] -- Set runtime path of "/root/Pose_waypointmaker/install/urg_node/lib/urg_node/urg_node_driver" to ""
+[24.142s] -- Installing: /root/Pose_waypointmaker/install/urg_node/lib/liburg_node.so
+[24.179s] -- Set runtime path of "/root/Pose_waypointmaker/install/urg_node/lib/liburg_node.so" to ""
+[24.179s] -- Installing: /root/Pose_waypointmaker/install/urg_node/lib/urg_node/getID
+[24.182s] -- Set runtime path of "/root/Pose_waypointmaker/install/urg_node/lib/urg_node/getID" to ""
+[24.182s] -- Installing: /root/Pose_waypointmaker/install/urg_node/include
+[24.183s] -- Installing: /root/Pose_waypointmaker/install/urg_node/include/urg_node
+[24.184s] -- Installing: /root/Pose_waypointmaker/install/urg_node/include/urg_node/urg_node.hpp
+[24.185s] -- Installing: /root/Pose_waypointmaker/install/urg_node/include/urg_node/urg_c_wrapper.hpp
+[24.186s] -- Installing: /root/Pose_waypointmaker/install/urg_node/lib/urg_node/set_urg_ip.py
+[24.193s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/launch
+[24.194s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/launch/urg_node_ethernet.yaml
+[24.195s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/launch/urg_node_serial.yaml
+[24.198s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/launch/hokuyo_laser.urdf
+[24.200s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/launch/urg_lidar.launch.xml
+[24.200s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/launch/urg_node_launch.py
+[24.200s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/environment/library_path.sh
+[24.201s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/environment/library_path.dsv
+[24.202s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/ament_index/resource_index/package_run_dependencies/urg_node
+[24.203s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/ament_index/resource_index/parent_prefix_path/urg_node
+[24.204s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/environment/ament_prefix_path.sh
+[24.206s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/environment/ament_prefix_path.dsv
+[24.208s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/environment/path.sh
+[24.210s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/environment/path.dsv
+[24.211s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/local_setup.bash
+[24.218s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/local_setup.sh
+[24.220s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/local_setup.zsh
+[24.220s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/local_setup.dsv
+[24.221s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/package.dsv
+[24.223s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/ament_index/resource_index/packages/urg_node
+[24.224s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/ament_index/resource_index/rclcpp_components/urg_node
+[24.225s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.226s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.232s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/cmake/ament_cmake_export_libraries-extras.cmake
+[24.234s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/cmake/urg_nodeConfig.cmake
+[24.235s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/cmake/urg_nodeConfig-version.cmake
+[24.248s] -- Installing: /root/Pose_waypointmaker/install/urg_node/share/urg_node/package.xml
+[24.263s] Invoked command in '/root/Pose_waypointmaker/build/urg_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/Pose_waypointmaker/install/pifpaf_navi:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /root/Pose_waypointmaker/build/urg_node

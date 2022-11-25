@@ -1,0 +1,546 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+-- Found stereo_msgs: 2.0.5 (/opt/ros/foxy/share/stereo_msgs/cmake)
+-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_eigen: 0.13.13 (/opt/ros/foxy/share/tf2_eigen/cmake)
+-- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+-- Found image_geometry: 3.0.7 (/opt/ros/foxy/share/image_geometry/cmake)
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- Found RTABMap: /root/Pose_waypointmaker/install/rtabmap/lib/librtabmap_core.so;/root/Pose_waypointmaker/install/rtabmap/lib/librtabmap_utilite.so;/root/Pose_waypointmaker/install/rtabmap/lib/librtabmap_gui.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/libOpenNI2.so;/usr/lib/x86_64-linux-gnu/libdc1394.so;vtkGUISupportQt (Required is at least version "0.20.20") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL: pcl_common;pcl_kdtree;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;vtkGUISupportQt;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkInteractionStyle;vtkFiltersSources;vtkRenderingCore;vtkCommonColor;vtkFiltersGeometry;vtkRenderingOpenGL2;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;FLANN::FLANN (Required is at least version "1.7") 
+-- Found rviz_common: 8.2.7 (/opt/ros/foxy/share/rviz_common/cmake)
+-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Could not find freeimage library
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+-- library: libassimp.so.5
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found rviz_default_plugins: 8.2.7 (/opt/ros/foxy/share/rviz_default_plugins/cmake)
+-- RTABMAP_SYNC_MULTI_RGBD = OFF
+-- RTABMAP_SYNC_USER_DATA  = OFF
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Found rmw_fastrtps_cpp: 1.3.1 (/opt/ros/foxy/share/rmw_fastrtps_cpp/cmake)
+-- WITH rviz
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /root/Pose_waypointmaker/src/rtabmap_ros/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/Pose_waypointmaker/build/rtabmap_ros
+[35m[1mScanning dependencies of target rtabmap_ros__cpp[0m
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target rtabmap_ros__cpp
+[  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  1%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target rtabmap_ros__rosidl_generator_c[0m
+[  2%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/info__functions.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/map_data__functions.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/global_descriptor__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/scan_descriptor__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/key_point__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/map_graph__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/node_data__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/link__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/odom_info__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/point2f__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/goal__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/point3f__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/rgbd_image__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/gps__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/rgbd_images__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/user_data__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/path__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/env_sensor__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/camera_model__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/msg/detail/camera_models__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/get_map__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/get_map2__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/reset_pose__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/list_labels__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/publish_map__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/set_goal__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/set_label__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/get_plan__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/remove_label__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/add_link__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/get_nodes_in_radius__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/load_database__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/get_node_data__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/detect_more_loop_closures__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/global_bundle_adjustment__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_generator_c.dir/rosidl_generator_c/rtabmap_ros/srv/detail/cleanup_local_grids__functions.c.o[0m
+[ 11%] [32m[1mLinking C shared library librtabmap_ros__rosidl_generator_c.so[0m
+[ 11%] Built target rtabmap_ros__rosidl_generator_c
+[ 12%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 12%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target rtabmap_ros__rosidl_typesupport_cpp[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/key_point__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/info__type_support.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/global_descriptor__type_support.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/scan_descriptor__type_support.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/map_data__type_support.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/map_graph__type_support.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/link__type_support.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/node_data__type_support.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/odom_info__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/point2f__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/goal__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/point3f__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/rgbd_image__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/rgbd_images__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/user_data__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/gps__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/path__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/env_sensor__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/camera_model__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/msg/camera_models__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/get_map__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/get_map2__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/list_labels__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/publish_map__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/reset_pose__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/set_goal__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/set_label__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/remove_label__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/get_plan__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/add_link__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/get_node_data__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/get_nodes_in_radius__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/load_database__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/detect_more_loop_closures__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/global_bundle_adjustment__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rtabmap_ros/srv/cleanup_local_grids__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_ros__rosidl_typesupport_c[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/info__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/key_point__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_ros__rosidl_typesupport_introspection_cpp[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/global_descriptor__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/scan_descriptor__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/map_graph__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/map_data__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/node_data__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/key_point__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/info__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/global_descriptor__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/scan_descriptor__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/link__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/point2f__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/odom_info__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/point3f__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/goal__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/rgbd_image__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/rgbd_images__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/user_data__type_support.cpp.o[0m
+[ 26%] [32m[1mLinking CXX shared library librtabmap_ros__rosidl_typesupport_cpp.so[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/map_data__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/gps__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/path__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/env_sensor__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/camera_model__type_support.cpp.o[0m
+[ 27%] Built target rtabmap_ros__rosidl_typesupport_cpp
+[ 28%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/msg/camera_models__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/map_graph__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/get_map__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/get_map2__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/list_labels__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/publish_map__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/reset_pose__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/node_data__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/set_goal__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/link__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_ros__rosidl_typesupport_fastrtps_cpp[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/set_label__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/get_plan__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/remove_label__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/odom_info__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/add_link__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/get_nodes_in_radius__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/get_node_data__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/point2f__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/load_database__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/point3f__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/goal__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/info__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/detect_more_loop_closures__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/rgbd_image__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/global_bundle_adjustment__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/rtabmap_ros/srv/cleanup_local_grids__type_support.cpp.o[0m
+[ 35%] [32m[1mLinking CXX shared library librtabmap_ros__rosidl_typesupport_c.so[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/key_point__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/rgbd_images__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/user_data__type_support.cpp.o[0m
+[ 35%] Built target rtabmap_ros__rosidl_typesupport_c
+[ 35%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/global_descriptor__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/path__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/gps__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/env_sensor__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target rtabmap_ros__rosidl_typesupport_introspection_c[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/camera_model__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/msg/detail/camera_models__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/scan_descriptor__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/get_map__type_support.cpp.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/info__type_support.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/key_point__type_support.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/global_descriptor__type_support.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/scan_descriptor__type_support.c.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/map_data__type_support.cpp.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/map_data__type_support.c.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/get_map2__type_support.cpp.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/map_graph__type_support.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/node_data__type_support.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/link__type_support.c.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/list_labels__type_support.cpp.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/point2f__type_support.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/point3f__type_support.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/odom_info__type_support.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/goal__type_support.c.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/map_graph__type_support.cpp.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/rgbd_image__type_support.c.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/publish_map__type_support.cpp.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/rgbd_images__type_support.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/user_data__type_support.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/gps__type_support.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/path__type_support.c.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/node_data__type_support.cpp.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/camera_model__type_support.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/env_sensor__type_support.c.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/link__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/reset_pose__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/odom_info__type_support.cpp.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/msg/detail/camera_models__type_support.c.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/set_goal__type_support.cpp.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/get_map__type_support.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/get_map2__type_support.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/list_labels__type_support.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/publish_map__type_support.c.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/set_label__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/remove_label__type_support.cpp.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/reset_pose__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/set_goal__type_support.c.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/get_plan__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/point2f__type_support.cpp.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/set_label__type_support.c.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/add_link__type_support.cpp.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/remove_label__type_support.c.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/point3f__type_support.cpp.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/get_plan__type_support.c.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/get_node_data__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/goal__type_support.cpp.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/add_link__type_support.c.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/get_nodes_in_radius__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/load_database__type_support.cpp.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/get_node_data__type_support.c.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/detect_more_loop_closures__type_support.cpp.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/get_nodes_in_radius__type_support.c.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/global_bundle_adjustment__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/load_database__type_support.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/detect_more_loop_closures__type_support.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/global_bundle_adjustment__type_support.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rtabmap_ros/srv/detail/cleanup_local_grids__type_support.c.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/rgbd_images__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/rgbd_image__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/user_data__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/path__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/gps__type_support.cpp.o[0m
+[ 55%] [32m[1mLinking C shared library librtabmap_ros__rosidl_typesupport_introspection_c.so[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/env_sensor__type_support.cpp.o[0m
+[ 55%] Built target rtabmap_ros__rosidl_typesupport_introspection_c
+[ 55%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rtabmap_ros/srv/detail/cleanup_local_grids__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/camera_model__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/msg/detail/dds_fastrtps/camera_models__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/get_map__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/get_map2__type_support.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/list_labels__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/publish_map__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/reset_pose__type_support.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library librtabmap_ros__rosidl_typesupport_introspection_cpp.so[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/set_goal__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/set_label__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/remove_label__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/add_link__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/get_plan__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/get_node_data__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/get_nodes_in_radius__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/detect_more_loop_closures__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/load_database__type_support.cpp.o[0m
+[ 59%] Built target rtabmap_ros__rosidl_typesupport_introspection_cpp
+[ 59%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/global_bundle_adjustment__type_support.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rtabmap_ros/srv/detail/dds_fastrtps/cleanup_local_grids__type_support.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library librtabmap_ros__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 60%] Built target rtabmap_ros__rosidl_typesupport_fastrtps_cpp
+[ 60%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target rtabmap_ros__rosidl_typesupport_fastrtps_c[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/info__type_support_c.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/map_data__type_support_c.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/key_point__type_support_c.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/global_descriptor__type_support_c.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/map_graph__type_support_c.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/scan_descriptor__type_support_c.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/goal__type_support_c.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/rgbd_image__type_support_c.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/rgbd_images__type_support_c.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/gps__type_support_c.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/user_data__type_support_c.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/odom_info__type_support_c.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/path__type_support_c.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/point2f__type_support_c.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/point3f__type_support_c.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/link__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/env_sensor__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/camera_model__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/camera_models__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/get_map__type_support_c.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/get_map2__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/msg/detail/node_data__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/publish_map__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/reset_pose__type_support_c.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/set_goal__type_support_c.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/set_label__type_support_c.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/remove_label__type_support_c.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/list_labels__type_support_c.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/get_plan__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/add_link__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/get_node_data__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/get_nodes_in_radius__type_support_c.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/detect_more_loop_closures__type_support_c.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/load_database__type_support_c.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/global_bundle_adjustment__type_support_c.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rtabmap_ros/srv/detail/cleanup_local_grids__type_support_c.cpp.o[0m
+[ 69%] [32m[1mLinking CXX shared library librtabmap_ros__rosidl_typesupport_fastrtps_c.so[0m
+[ 69%] Built target rtabmap_ros__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target rtabmap_ros[0m
+[ 69%] Built target rtabmap_ros
+[35m[1mScanning dependencies of target rtabmap_common[0m
+[35m[1mScanning dependencies of target rtabmap_ros__py[0m
+[ 70%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/rtabmap_common.dir/src/MsgConversion.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/rtabmap_common.dir/src/MapsManager.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/rtabmap_common.dir/src/OdometryROS.cpp.o[0m
+[ 71%] Built target rtabmap_ros__py
+[35m[1mScanning dependencies of target rtabmap_ros__python[0m
+[ 71%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_key_point_s.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_info_s.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_node_data_s.c.o[0m
+[ 71%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_scan_descriptor_s.c.o[0m
+[ 72%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_global_descriptor_s.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_link_s.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_map_data_s.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_map_graph_s.c.o[0m
+[ 73%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_point2f_s.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_point3f_s.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_goal_s.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_odom_info_s.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_rgbd_image_s.c.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_rgbd_images_s.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_user_data_s.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_gps_s.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_path_s.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_env_sensor_s.c.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_camera_model_s.c.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_get_map2_s.c.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_get_map_s.c.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/msg/_camera_models_s.c.o[0m
+[ 77%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_list_labels_s.c.o[0m
+[ 77%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_publish_map_s.c.o[0m
+[ 77%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_reset_pose_s.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_set_goal_s.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_set_label_s.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_remove_label_s.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_get_plan_s.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_add_link_s.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_get_nodes_in_radius_s.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_load_database_s.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_get_node_data_s.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_detect_more_loop_closures_s.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_global_bundle_adjustment_s.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/rtabmap_ros__python.dir/rosidl_generator_py/rtabmap_ros/srv/_cleanup_local_grids_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/rtabmap_ros/librtabmap_ros__python.so[0m
+[ 80%] Built target rtabmap_ros__python
+[35m[1mScanning dependencies of target rtabmap_ros__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mScanning dependencies of target rtabmap_ros__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target rtabmap_ros__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 80%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rtabmap_ros/_rtabmap_ros_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rtabmap_ros/_rtabmap_ros_s.ep.rosidl_typesupport_c.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/rtabmap_ros__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rtabmap_ros/_rtabmap_ros_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 82%] [32m[1mLinking C shared library rosidl_generator_py/rtabmap_ros/rtabmap_ros_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 82%] [32m[1mLinking C shared library rosidl_generator_py/rtabmap_ros/rtabmap_ros_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 82%] [32m[1mLinking CXX shared library rosidl_generator_py/rtabmap_ros/rtabmap_ros_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 82%] Built target rtabmap_ros__rosidl_typesupport_c__pyext
+[ 82%] Built target rtabmap_ros__rosidl_typesupport_introspection_c__pyext
+[ 82%] Built target rtabmap_ros__rosidl_typesupport_fastrtps_c__pyext
+[ 82%] [32m[1mLinking CXX shared library librtabmap_common.so[0m
+[ 82%] Built target rtabmap_common
+[ 83%] [34m[1mGenerating src/rviz/moc_InfoDisplay.cpp[0m
+[ 83%] [34m[1mGenerating src/rviz/moc_MapCloudDisplay.cpp[0m
+[ 83%] [34m[1mGenerating src/rviz/moc_MapGraphDisplay.cpp[0m
+[35m[1mScanning dependencies of target rtabmap_sync[0m
+[35m[1mScanning dependencies of target rtabmap_plugins[0m
+[35m[1mScanning dependencies of target rtabmap_rviz_plugins[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberScan.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBDX.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberOdom.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBD.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CoreWrapper.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/rgbd_odometry.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/stereo_odometry.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/MapCloudDisplay.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/MapGraphDisplay.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/InfoDisplay.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/moc_MapCloudDisplay.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/pointcloud_to_depthimage.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/moc_InfoDisplay.cpp.o[0m
+[ 89%] [32m[1mLinking CXX shared library librtabmap_sync.so[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/rgbd_sync.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/rtabmap_rviz_plugins.dir/src/rviz/moc_MapGraphDisplay.cpp.o[0m
+[ 89%] [32m[1mLinking CXX shared library librtabmap_rviz_plugins.so[0m
+[ 89%] Built target rtabmap_rviz_plugins
+[ 90%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/rgbd_relay.cpp.o[0m
+[ 90%] Built target rtabmap_sync
+[ 90%] [32mBuilding CXX object CMakeFiles/rtabmap_plugins.dir/src/nodelets/rgb_sync.cpp.o[0m

@@ -1,0 +1,13 @@
+rtabmap_ros::RGBDOdometry;lib/librtabmap_plugins.so
+rtabmap_ros::StereoOdometry;lib/librtabmap_plugins.so
+rtabmap_ros::ICPOdometry;lib/librtabmap_plugins.so
+rtabmap_ros::RGBDRelay;lib/librtabmap_plugins.so
+rtabmap_ros::RGBDSync;lib/librtabmap_plugins.so
+rtabmap_ros::StereoSync;lib/librtabmap_plugins.so
+rtabmap_ros::PointCloudXYZ;lib/librtabmap_plugins.so
+rtabmap_ros::PointCloudXYZRGB;lib/librtabmap_plugins.so
+rtabmap_ros::PointCloudToDepthImage;lib/librtabmap_plugins.so
+rtabmap_ros::ObstaclesDetection;lib/librtabmap_plugins.so
+rtabmap_ros::PointCloudAggregator;lib/librtabmap_plugins.so
+rtabmap_ros::PointCloudAssembler;lib/librtabmap_plugins.so
+rtabmap_ros::CoreWrapper;lib/librtabmap_sync.so

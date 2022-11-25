@@ -1,0 +1,546 @@
+[0.208s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.208s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc4fab77fd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc4fab77fd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc4fab83520>)
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.234s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/Pose_waypointmaker'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/openpifpaf_ros2_msgs_v2) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/openpifpaf_ros2_msgs_v2' with type 'ros.ament_cmake' and name 'openpifpaf_ros2_msgs_v2'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/pifpaf_navi) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/pifpaf_navi) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/pifpaf_navi) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/pifpaf_navi) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/pifpaf_navi) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/pifpaf_navi) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/pifpaf_navi) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/pifpaf_navi) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/pifpaf_navi) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pifpaf_navi' with type 'ros.ament_python' and name 'pifpaf_navi'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pifpaf) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_pifpaf' with type 'ros.ament_python' and name 'ros2_pifpaf'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap' with type 'ros.cmake' and name 'rtabmap'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtabmap_ros) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtabmap_ros' with type 'ros.ament_cmake' and name 'rtabmap_ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_pifpaf) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_pifpaf' with type 'ros.ament_python' and name 'tf2_pifpaf'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urg_node' with type 'ros.ament_cmake' and name 'urg_node'
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Pose_waypointmaker/install/urg_node2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Pose_waypointmaker/install/realsense2_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Pose_waypointmaker/install/realsense2_camera' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Pose_waypointmaker/install/realsense2_camera_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.307s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Pose_waypointmaker/install/urg_node2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.307s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Pose_waypointmaker/install/realsense2_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.307s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Pose_waypointmaker/install/realsense2_camera' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.307s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Pose_waypointmaker/install/realsense2_camera_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.309s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /root/Pose_waypointmaker/install
+[0.310s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /root/Pose_waypointmaker/src/install
+[0.311s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 23 installed packages in /root/sirius/sirius_ws/install
+[0.318s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/foxy
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'openpifpaf_ros2_msgs_v2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'openpifpaf_ros2_msgs_v2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2', 'merge_install': False, 'path': '/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs_v2', 'symlink_install': False, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'pifpaf_navi' build argument 'cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'pifpaf_navi' build argument 'cmake_target' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'pifpaf_navi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'pifpaf_navi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'pifpaf_navi' build argument 'cmake_clean_first' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'pifpaf_navi' build argument 'cmake_force_configure' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'pifpaf_navi' build argument 'ament_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'pifpaf_navi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'pifpaf_navi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'pifpaf_navi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Pose_waypointmaker/build/pifpaf_navi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Pose_waypointmaker/install/pifpaf_navi', 'merge_install': False, 'path': '/root/Pose_waypointmaker/src/pifpaf_navi', 'symlink_install': False, 'test_result_base': None}
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_target' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_clean_cache' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_clean_first' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'cmake_force_configure' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'ament_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'catkin_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'rtabmap' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.442s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Pose_waypointmaker/build/rtabmap', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Pose_waypointmaker/install/rtabmap', 'merge_install': False, 'path': '/root/Pose_waypointmaker/src/rtabmap', 'symlink_install': False, 'test_result_base': None}
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'cmake_target' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'cmake_clean_first' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'cmake_force_configure' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'ament_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'tf2_pifpaf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.443s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_pifpaf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Pose_waypointmaker/build/tf2_pifpaf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Pose_waypointmaker/install/tf2_pifpaf', 'merge_install': False, 'path': '/root/Pose_waypointmaker/src/tf2_pifpaf', 'symlink_install': False, 'test_result_base': None}
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.444s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Pose_waypointmaker/build/urg_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Pose_waypointmaker/install/urg_node', 'merge_install': False, 'path': '/root/Pose_waypointmaker/src/urg_node', 'symlink_install': False, 'test_result_base': None}
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'cmake_target' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'cmake_clean_first' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'cmake_force_configure' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'ament_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'ros2_pifpaf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.445s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_pifpaf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Pose_waypointmaker/build/ros2_pifpaf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Pose_waypointmaker/install/ros2_pifpaf', 'merge_install': False, 'path': '/root/Pose_waypointmaker/src/ros2_pifpaf', 'symlink_install': False, 'test_result_base': None}
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'cmake_target' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'rtabmap_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.446s] DEBUG:colcon.colcon_core.verb:Building package 'rtabmap_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Pose_waypointmaker/build/rtabmap_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Pose_waypointmaker/install/rtabmap_ros', 'merge_install': False, 'path': '/root/Pose_waypointmaker/src/rtabmap_ros', 'symlink_install': False, 'test_result_base': None}
+[0.447s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.451s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs_v2' with build type 'ament_cmake'
+[0.451s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Pose_waypointmaker/src/openpifpaf_ros2_msgs_v2'
+[0.458s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/root/Pose_waypointmaker/src/rtabmap' with build type 'cmake'
+[0.468s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Pose_waypointmaker/src/rtabmap'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.479s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/Pose_waypointmaker/src/pifpaf_navi' with build type 'ament_python'
+[0.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('pifpaf_navi', 'ament_prefix_path')
+[0.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/pifpaf_navi/share/pifpaf_navi/hook/ament_prefix_path.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/pifpaf_navi/share/pifpaf_navi/hook/ament_prefix_path.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/pifpaf_navi/share/pifpaf_navi/hook/ament_prefix_path.sh'
+[0.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.495s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/Pose_waypointmaker/src/tf2_pifpaf' with build type 'ament_python'
+[0.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_pifpaf', 'ament_prefix_path')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/hook/ament_prefix_path.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/hook/ament_prefix_path.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/hook/ament_prefix_path.sh'
+[0.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.508s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Pose_waypointmaker/src/urg_node' with build type 'ament_cmake'
+[0.508s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Pose_waypointmaker/src/urg_node'
+[0.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2 -- -j12 -l12
+[0.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /root/Pose_waypointmaker/build/rtabmap -- -j12 -l12
+[0.785s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/Pose_waypointmaker/src/pifpaf_navi'
+[0.787s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.787s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.131s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/Pose_waypointmaker/src/tf2_pifpaf'
+[1.133s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.133s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2 -- -j12 -l12
+[1.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/urg_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /root/Pose_waypointmaker/build/urg_node -- -j12 -l12
+[1.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /root/Pose_waypointmaker/build/rtabmap -- -j12 -l12
+[1.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/urg_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /root/Pose_waypointmaker/build/urg_node -- -j12 -l12
+[1.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /root/Pose_waypointmaker/build/rtabmap
+[1.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/urg_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /root/Pose_waypointmaker/build/urg_node
+[1.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node' for CMake module files
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node' for CMake config files
+[1.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[1.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[1.511s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node/lib'
+[1.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[1.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node/bin'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node/lib/pkgconfig/urg_node.pc'
+[1.518s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node/lib/python3.8/site-packages'
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node/bin'
+[1.521s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/urg_node/share/urg_node/package.ps1'
+[1.523s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/urg_node/share/urg_node/package.dsv'
+[1.524s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/urg_node/share/urg_node/package.sh'
+[1.526s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/urg_node/share/urg_node/package.bash'
+[1.528s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/urg_node/share/urg_node/package.zsh'
+[1.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/urg_node/share/colcon-core/packages/urg_node)
+[1.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/urg_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /root/Pose_waypointmaker/build/urg_node
+[1.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2
+[1.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /root/Pose_waypointmaker/build/rtabmap
+[1.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node' for CMake module files
+[1.606s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node' for CMake config files
+[1.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[1.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[1.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[1.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node/lib'
+[1.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[1.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[1.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[1.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node/bin'
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node/lib/pkgconfig/urg_node.pc'
+[1.618s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node/lib/python3.8/site-packages'
+[1.618s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/urg_node/bin'
+[1.620s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/urg_node/share/urg_node/package.ps1'
+[1.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/urg_node/share/urg_node/package.dsv'
+[1.623s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/urg_node/share/urg_node/package.sh'
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/urg_node/share/urg_node/package.bash'
+[1.626s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/urg_node/share/urg_node/package.zsh'
+[1.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/urg_node/share/colcon-core/packages/urg_node)
+[1.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openpifpaf_ros2_msgs_v2)
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2' for CMake module files
+[1.635s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2' for CMake config files
+[1.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /root/Pose_waypointmaker/build/openpifpaf_ros2_msgs_v2
+[1.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('openpifpaf_ros2_msgs_v2', 'cmake_prefix_path')
+[1.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/cmake_prefix_path.ps1'
+[1.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/cmake_prefix_path.dsv'
+[1.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/cmake_prefix_path.sh'
+[1.644s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib'
+[1.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('openpifpaf_ros2_msgs_v2', 'ld_library_path_lib')
+[1.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/ld_library_path_lib.ps1'
+[1.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/ld_library_path_lib.dsv'
+[1.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/ld_library_path_lib.sh'
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/bin'
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/pkgconfig/openpifpaf_ros2_msgs_v2.pc'
+[1.648s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/python3.8/site-packages'
+[1.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('openpifpaf_ros2_msgs_v2', 'pythonpath')
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/pythonpath.ps1'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/pythonpath.dsv'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/pythonpath.sh'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/bin'
+[1.655s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.ps1'
+[1.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.dsv'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.sh'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.bash'
+[1.658s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.zsh'
+[1.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/colcon-core/packages/openpifpaf_ros2_msgs_v2)
+[1.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap', 'pkg_config_path')
+[1.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/pkg_config_path.ps1'
+[1.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/pkg_config_path.dsv'
+[1.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/pkg_config_path.sh'
+[1.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap', 'pkg_config_path_multiarch')
+[1.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/pkg_config_path_multiarch.ps1'
+[1.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/pkg_config_path_multiarch.dsv'
+[1.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/pkg_config_path_multiarch.sh'
+[1.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtabmap)
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap' for CMake module files
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap' for CMake config files
+[1.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap', 'cmake_prefix_path')
+[1.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/cmake_prefix_path.ps1'
+[1.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/cmake_prefix_path.dsv'
+[1.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/cmake_prefix_path.sh'
+[1.692s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap/lib'
+[1.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap', 'ld_library_path_lib')
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/ld_library_path_lib.ps1'
+[1.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/ld_library_path_lib.dsv'
+[1.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/ld_library_path_lib.sh'
+[1.696s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap/bin'
+[1.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap', 'path')
+[1.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/path.ps1'
+[1.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/path.dsv'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/path.sh'
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap/lib/pkgconfig/rtabmap.pc'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap/lib/python3.8/site-packages'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap/bin'
+[1.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap', 'pythonscriptspath')
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/pythonscriptspath.ps1'
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/pythonscriptspath.dsv'
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/hook/pythonscriptspath.sh'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/package.ps1'
+[1.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/package.dsv'
+[1.709s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/package.sh'
+[1.709s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/package.bash'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/rtabmap/share/rtabmap/package.zsh'
+[1.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/rtabmap/share/colcon-core/packages/rtabmap)
+[1.711s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Pose_waypointmaker/src/rtabmap_ros' with build type 'ament_cmake'
+[1.711s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Pose_waypointmaker/src/rtabmap_ros'
+[1.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/rtabmap_ros': CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/rtabmap:/root/Pose_waypointmaker/install/urg_node2:/root/Pose_waypointmaker/install/urg_node:/root/Pose_waypointmaker/src/install/urg_node2:/root/Pose_waypointmaker/install/rtabmap_ros:/root/Pose_waypointmaker/install/realsense2_description:/root/Pose_waypointmaker/install/realsense2_camera:/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/sirius/sirius_ws/install/urg_node:/root/sirius/sirius_ws/install/urg_node_msgs:/root/sirius/sirius_ws/install/urg_c:/root/sirius/sirius_ws/install/turtlebot3:/root/sirius/sirius_ws/install/turtlebot3_bringup:/root/sirius/sirius_ws/install/turtlebot3_node:/root/sirius/sirius_ws/install/turtlebot3_navigation2:/root/sirius/sirius_ws/install/turtlebot3_description:/root/sirius/sirius_ws/install/turtlebot3_cartographer:/root/sirius/sirius_ws/install/laser_proc:/root/sirius/sirius_ws/install/kobuki_velocity_smoother:/root/sirius/sirius_ws/install/kobuki_ros:/root/sirius/sirius_ws/install/kobuki_safety_controller:/root/sirius/sirius_ws/install/kobuki_random_walker:/root/sirius/sirius_ws/install/kobuki_node:/root/sirius/sirius_ws/install/kobuki_keyop:/root/sirius/sirius_ws/install/kobuki_bumper2pc:/root/sirius/sirius_ws/install/kobuki_auto_docking:/root/sirius/sirius_ws/install/kobuki_ros_interfaces:/root/sirius/sirius_ws/install/kobuki_description:/root/sirius/sirius_ws/install/kobuki_core:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/rtabmap/lib:/root/Pose_waypointmaker/install/urg_node2/lib:/root/Pose_waypointmaker/install/urg_node/lib:/root/Pose_waypointmaker/src/install/urg_node2/lib:/root/Pose_waypointmaker/install/rtabmap_ros/lib:/root/Pose_waypointmaker/install/realsense2_camera/lib:/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib:/root/sirius/sirius_ws/install/urg_node/lib:/root/sirius/sirius_ws/install/urg_node_msgs/lib:/root/sirius/sirius_ws/install/urg_c/lib:/root/sirius/sirius_ws/install/laser_proc/lib:/root/sirius/sirius_ws/install/kobuki_velocity_smoother/lib:/root/sirius/sirius_ws/install/kobuki_safety_controller/lib:/root/sirius/sirius_ws/install/kobuki_node/lib:/root/sirius/sirius_ws/install/kobuki_keyop/lib:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib:/root/sirius/sirius_ws/install/kobuki_core/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /root/Pose_waypointmaker/build/rtabmap_ros -- -j12 -l12
+[1.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/src/tf2_pifpaf': PYTHONPATH=/root/Pose_waypointmaker/build/tf2_pifpaf/prefix_override:/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf2_pifpaf build --build-base /root/Pose_waypointmaker/build/tf2_pifpaf/build install --record /root/Pose_waypointmaker/build/tf2_pifpaf/install.log --install-scripts $base/lib/tf2_pifpaf --single-version-externally-managed
+[1.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/src/pifpaf_navi': PYTHONPATH=/root/Pose_waypointmaker/build/pifpaf_navi/prefix_override:/root/Pose_waypointmaker/install/pifpaf_navi/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pifpaf_navi build --build-base /root/Pose_waypointmaker/build/pifpaf_navi/build install --record /root/Pose_waypointmaker/build/pifpaf_navi/install.log --install-scripts $base/lib/pifpaf_navi --single-version-externally-managed
+[1.946s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openpifpaf_ros2_msgs_v2)
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2' for CMake module files
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2' for CMake config files
+[1.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('openpifpaf_ros2_msgs_v2', 'cmake_prefix_path')
+[1.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/cmake_prefix_path.ps1'
+[1.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/cmake_prefix_path.dsv'
+[1.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/cmake_prefix_path.sh'
+[1.957s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib'
+[1.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('openpifpaf_ros2_msgs_v2', 'ld_library_path_lib')
+[1.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/ld_library_path_lib.ps1'
+[1.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/ld_library_path_lib.dsv'
+[1.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/ld_library_path_lib.sh'
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/bin'
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/pkgconfig/openpifpaf_ros2_msgs_v2.pc'
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/python3.8/site-packages'
+[1.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('openpifpaf_ros2_msgs_v2', 'pythonpath')
+[1.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/pythonpath.ps1'
+[1.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/pythonpath.dsv'
+[1.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/hook/pythonpath.sh'
+[1.965s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/bin'
+[1.968s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.ps1'
+[1.969s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.dsv'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.sh'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.bash'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/openpifpaf_ros2_msgs_v2/package.zsh'
+[1.971s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/share/colcon-core/packages/openpifpaf_ros2_msgs_v2)
+[1.972s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/Pose_waypointmaker/src/ros2_pifpaf' with build type 'ament_python'
+[1.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_pifpaf', 'ament_prefix_path')
+[1.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/hook/ament_prefix_path.ps1'
+[1.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/hook/ament_prefix_path.dsv'
+[1.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/hook/ament_prefix_path.sh'
+[1.979s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.980s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.290s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/Pose_waypointmaker/src/ros2_pifpaf'
+[2.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf' for CMake module files
+[2.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/src/tf2_pifpaf' returned '0': PYTHONPATH=/root/Pose_waypointmaker/build/tf2_pifpaf/prefix_override:/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf2_pifpaf build --build-base /root/Pose_waypointmaker/build/tf2_pifpaf/build install --record /root/Pose_waypointmaker/build/tf2_pifpaf/install.log --install-scripts $base/lib/tf2_pifpaf --single-version-externally-managed
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf' for CMake config files
+[2.312s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf/lib'
+[2.312s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf/bin'
+[2.312s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf/lib/pkgconfig/tf2_pifpaf.pc'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages'
+[2.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_pifpaf', 'pythonpath')
+[2.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/hook/pythonpath.ps1'
+[2.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/hook/pythonpath.dsv'
+[2.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/hook/pythonpath.sh'
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/tf2_pifpaf/bin'
+[2.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2_pifpaf)
+[2.320s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/package.ps1'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/package.dsv'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/package.sh'
+[2.323s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/package.bash'
+[2.323s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/tf2_pifpaf/share/tf2_pifpaf/package.zsh'
+[2.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/tf2_pifpaf/share/colcon-core/packages/tf2_pifpaf)
+[2.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/src/pifpaf_navi' returned '0': PYTHONPATH=/root/Pose_waypointmaker/build/pifpaf_navi/prefix_override:/root/Pose_waypointmaker/install/pifpaf_navi/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pifpaf_navi build --build-base /root/Pose_waypointmaker/build/pifpaf_navi/build install --record /root/Pose_waypointmaker/build/pifpaf_navi/install.log --install-scripts $base/lib/pifpaf_navi --single-version-externally-managed
+[2.334s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/pifpaf_navi' for CMake module files
+[2.335s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/pifpaf_navi' for CMake config files
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/pifpaf_navi/lib'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/pifpaf_navi/bin'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/pifpaf_navi/lib/pkgconfig/pifpaf_navi.pc'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/pifpaf_navi/lib/python3.8/site-packages'
+[2.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('pifpaf_navi', 'pythonpath')
+[2.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/pifpaf_navi/share/pifpaf_navi/hook/pythonpath.ps1'
+[2.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/pifpaf_navi/share/pifpaf_navi/hook/pythonpath.dsv'
+[2.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/pifpaf_navi/share/pifpaf_navi/hook/pythonpath.sh'
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/pifpaf_navi/bin'
+[2.343s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pifpaf_navi)
+[2.346s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/pifpaf_navi/share/pifpaf_navi/package.ps1'
+[2.347s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/pifpaf_navi/share/pifpaf_navi/package.dsv'
+[2.349s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/pifpaf_navi/share/pifpaf_navi/package.sh'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/pifpaf_navi/share/pifpaf_navi/package.bash'
+[2.350s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/pifpaf_navi/share/pifpaf_navi/package.zsh'
+[2.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/pifpaf_navi/share/colcon-core/packages/pifpaf_navi)
+[2.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/rtabmap_ros' returned '0': CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/rtabmap:/root/Pose_waypointmaker/install/urg_node2:/root/Pose_waypointmaker/install/urg_node:/root/Pose_waypointmaker/src/install/urg_node2:/root/Pose_waypointmaker/install/rtabmap_ros:/root/Pose_waypointmaker/install/realsense2_description:/root/Pose_waypointmaker/install/realsense2_camera:/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/sirius/sirius_ws/install/urg_node:/root/sirius/sirius_ws/install/urg_node_msgs:/root/sirius/sirius_ws/install/urg_c:/root/sirius/sirius_ws/install/turtlebot3:/root/sirius/sirius_ws/install/turtlebot3_bringup:/root/sirius/sirius_ws/install/turtlebot3_node:/root/sirius/sirius_ws/install/turtlebot3_navigation2:/root/sirius/sirius_ws/install/turtlebot3_description:/root/sirius/sirius_ws/install/turtlebot3_cartographer:/root/sirius/sirius_ws/install/laser_proc:/root/sirius/sirius_ws/install/kobuki_velocity_smoother:/root/sirius/sirius_ws/install/kobuki_ros:/root/sirius/sirius_ws/install/kobuki_safety_controller:/root/sirius/sirius_ws/install/kobuki_random_walker:/root/sirius/sirius_ws/install/kobuki_node:/root/sirius/sirius_ws/install/kobuki_keyop:/root/sirius/sirius_ws/install/kobuki_bumper2pc:/root/sirius/sirius_ws/install/kobuki_auto_docking:/root/sirius/sirius_ws/install/kobuki_ros_interfaces:/root/sirius/sirius_ws/install/kobuki_description:/root/sirius/sirius_ws/install/kobuki_core:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/rtabmap/lib:/root/Pose_waypointmaker/install/urg_node2/lib:/root/Pose_waypointmaker/install/urg_node/lib:/root/Pose_waypointmaker/src/install/urg_node2/lib:/root/Pose_waypointmaker/install/rtabmap_ros/lib:/root/Pose_waypointmaker/install/realsense2_camera/lib:/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib:/root/sirius/sirius_ws/install/urg_node/lib:/root/sirius/sirius_ws/install/urg_node_msgs/lib:/root/sirius/sirius_ws/install/urg_c/lib:/root/sirius/sirius_ws/install/laser_proc/lib:/root/sirius/sirius_ws/install/kobuki_velocity_smoother/lib:/root/sirius/sirius_ws/install/kobuki_safety_controller/lib:/root/sirius/sirius_ws/install/kobuki_node/lib:/root/sirius/sirius_ws/install/kobuki_keyop/lib:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib:/root/sirius/sirius_ws/install/kobuki_core/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /root/Pose_waypointmaker/build/rtabmap_ros -- -j12 -l12
+[2.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/src/ros2_pifpaf': CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/Pose_waypointmaker/install/urg_node2:/root/Pose_waypointmaker/install/urg_node:/root/Pose_waypointmaker/src/install/urg_node2:/root/Pose_waypointmaker/install/rtabmap_ros:/root/Pose_waypointmaker/install/rtabmap:/root/Pose_waypointmaker/install/realsense2_description:/root/Pose_waypointmaker/install/realsense2_camera:/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/sirius/sirius_ws/install/urg_node:/root/sirius/sirius_ws/install/urg_node_msgs:/root/sirius/sirius_ws/install/urg_c:/root/sirius/sirius_ws/install/turtlebot3:/root/sirius/sirius_ws/install/turtlebot3_bringup:/root/sirius/sirius_ws/install/turtlebot3_node:/root/sirius/sirius_ws/install/turtlebot3_navigation2:/root/sirius/sirius_ws/install/turtlebot3_description:/root/sirius/sirius_ws/install/turtlebot3_cartographer:/root/sirius/sirius_ws/install/laser_proc:/root/sirius/sirius_ws/install/kobuki_velocity_smoother:/root/sirius/sirius_ws/install/kobuki_ros:/root/sirius/sirius_ws/install/kobuki_safety_controller:/root/sirius/sirius_ws/install/kobuki_random_walker:/root/sirius/sirius_ws/install/kobuki_node:/root/sirius/sirius_ws/install/kobuki_keyop:/root/sirius/sirius_ws/install/kobuki_bumper2pc:/root/sirius/sirius_ws/install/kobuki_auto_docking:/root/sirius/sirius_ws/install/kobuki_ros_interfaces:/root/sirius/sirius_ws/install/kobuki_description:/root/sirius/sirius_ws/install/kobuki_core LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib:/root/Pose_waypointmaker/install/urg_node2/lib:/root/Pose_waypointmaker/install/urg_node/lib:/root/Pose_waypointmaker/src/install/urg_node2/lib:/root/Pose_waypointmaker/install/rtabmap_ros/lib:/root/Pose_waypointmaker/install/rtabmap/lib:/root/Pose_waypointmaker/install/realsense2_camera/lib:/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:/root/sirius/sirius_ws/install/urg_node/lib:/root/sirius/sirius_ws/install/urg_node_msgs/lib:/root/sirius/sirius_ws/install/urg_c/lib:/root/sirius/sirius_ws/install/laser_proc/lib:/root/sirius/sirius_ws/install/kobuki_velocity_smoother/lib:/root/sirius/sirius_ws/install/kobuki_safety_controller/lib:/root/sirius/sirius_ws/install/kobuki_node/lib:/root/sirius/sirius_ws/install/kobuki_keyop/lib:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib:/root/sirius/sirius_ws/install/kobuki_core/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/root/Pose_waypointmaker/build/ros2_pifpaf/prefix_override:/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/python3.8/site-packages:/root/Pose_waypointmaker/build/tf2_pifpaf:/root/Pose_waypointmaker/build/ros2_pifpaf:/root/Pose_waypointmaker/build/pifpaf_navi:/root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/pifpaf_navi/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/python3.8/site-packages:/root/sirius/sirius_ws/install/urg_node_msgs/lib/python3.8/site-packages:/root/sirius/sirius_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/root/sirius/sirius_ws/install/turtlebot3_example/lib/python3.8/site-packages:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_pifpaf build --build-base /root/Pose_waypointmaker/build/ros2_pifpaf/build install --record /root/Pose_waypointmaker/build/ros2_pifpaf/install.log --install-scripts $base/lib/ros2_pifpaf --single-version-externally-managed
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf' for CMake module files
+[3.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/src/ros2_pifpaf' returned '0': CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/Pose_waypointmaker/install/urg_node2:/root/Pose_waypointmaker/install/urg_node:/root/Pose_waypointmaker/src/install/urg_node2:/root/Pose_waypointmaker/install/rtabmap_ros:/root/Pose_waypointmaker/install/rtabmap:/root/Pose_waypointmaker/install/realsense2_description:/root/Pose_waypointmaker/install/realsense2_camera:/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/sirius/sirius_ws/install/urg_node:/root/sirius/sirius_ws/install/urg_node_msgs:/root/sirius/sirius_ws/install/urg_c:/root/sirius/sirius_ws/install/turtlebot3:/root/sirius/sirius_ws/install/turtlebot3_bringup:/root/sirius/sirius_ws/install/turtlebot3_node:/root/sirius/sirius_ws/install/turtlebot3_navigation2:/root/sirius/sirius_ws/install/turtlebot3_description:/root/sirius/sirius_ws/install/turtlebot3_cartographer:/root/sirius/sirius_ws/install/laser_proc:/root/sirius/sirius_ws/install/kobuki_velocity_smoother:/root/sirius/sirius_ws/install/kobuki_ros:/root/sirius/sirius_ws/install/kobuki_safety_controller:/root/sirius/sirius_ws/install/kobuki_random_walker:/root/sirius/sirius_ws/install/kobuki_node:/root/sirius/sirius_ws/install/kobuki_keyop:/root/sirius/sirius_ws/install/kobuki_bumper2pc:/root/sirius/sirius_ws/install/kobuki_auto_docking:/root/sirius/sirius_ws/install/kobuki_ros_interfaces:/root/sirius/sirius_ws/install/kobuki_description:/root/sirius/sirius_ws/install/kobuki_core LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib:/root/Pose_waypointmaker/install/urg_node2/lib:/root/Pose_waypointmaker/install/urg_node/lib:/root/Pose_waypointmaker/src/install/urg_node2/lib:/root/Pose_waypointmaker/install/rtabmap_ros/lib:/root/Pose_waypointmaker/install/rtabmap/lib:/root/Pose_waypointmaker/install/realsense2_camera/lib:/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:/root/sirius/sirius_ws/install/urg_node/lib:/root/sirius/sirius_ws/install/urg_node_msgs/lib:/root/sirius/sirius_ws/install/urg_c/lib:/root/sirius/sirius_ws/install/laser_proc/lib:/root/sirius/sirius_ws/install/kobuki_velocity_smoother/lib:/root/sirius/sirius_ws/install/kobuki_safety_controller/lib:/root/sirius/sirius_ws/install/kobuki_node/lib:/root/sirius/sirius_ws/install/kobuki_keyop/lib:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib:/root/sirius/sirius_ws/install/kobuki_core/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 PYTHONPATH=/root/Pose_waypointmaker/build/ros2_pifpaf/prefix_override:/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib/python3.8/site-packages:/root/Pose_waypointmaker/build/tf2_pifpaf:/root/Pose_waypointmaker/build/ros2_pifpaf:/root/Pose_waypointmaker/build/pifpaf_navi:/root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/pifpaf_navi/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/tf2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages:/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib/python3.8/site-packages:/root/sirius/sirius_ws/install/urg_node_msgs/lib/python3.8/site-packages:/root/sirius/sirius_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/root/sirius/sirius_ws/install/turtlebot3_example/lib/python3.8/site-packages:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_pifpaf build --build-base /root/Pose_waypointmaker/build/ros2_pifpaf/build install --record /root/Pose_waypointmaker/build/ros2_pifpaf/install.log --install-scripts $base/lib/ros2_pifpaf --single-version-externally-managed
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf' for CMake config files
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf/lib'
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf/bin'
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf/lib/pkgconfig/ros2_pifpaf.pc'
+[3.126s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf/lib/python3.8/site-packages'
+[3.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_pifpaf', 'pythonpath')
+[3.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/hook/pythonpath.ps1'
+[3.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/hook/pythonpath.dsv'
+[3.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/hook/pythonpath.sh'
+[3.128s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/ros2_pifpaf/bin'
+[3.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_pifpaf)
+[3.129s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/package.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/package.dsv'
+[3.130s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/package.sh'
+[3.130s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/package.bash'
+[3.131s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/ros2_pifpaf/share/ros2_pifpaf/package.zsh'
+[3.131s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/ros2_pifpaf/share/colcon-core/packages/ros2_pifpaf)
+[4.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Pose_waypointmaker/build/rtabmap_ros': CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/rtabmap:/root/Pose_waypointmaker/install/urg_node2:/root/Pose_waypointmaker/install/urg_node:/root/Pose_waypointmaker/src/install/urg_node2:/root/Pose_waypointmaker/install/rtabmap_ros:/root/Pose_waypointmaker/install/realsense2_description:/root/Pose_waypointmaker/install/realsense2_camera:/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/sirius/sirius_ws/install/urg_node:/root/sirius/sirius_ws/install/urg_node_msgs:/root/sirius/sirius_ws/install/urg_c:/root/sirius/sirius_ws/install/turtlebot3:/root/sirius/sirius_ws/install/turtlebot3_bringup:/root/sirius/sirius_ws/install/turtlebot3_node:/root/sirius/sirius_ws/install/turtlebot3_navigation2:/root/sirius/sirius_ws/install/turtlebot3_description:/root/sirius/sirius_ws/install/turtlebot3_cartographer:/root/sirius/sirius_ws/install/laser_proc:/root/sirius/sirius_ws/install/kobuki_velocity_smoother:/root/sirius/sirius_ws/install/kobuki_ros:/root/sirius/sirius_ws/install/kobuki_safety_controller:/root/sirius/sirius_ws/install/kobuki_random_walker:/root/sirius/sirius_ws/install/kobuki_node:/root/sirius/sirius_ws/install/kobuki_keyop:/root/sirius/sirius_ws/install/kobuki_bumper2pc:/root/sirius/sirius_ws/install/kobuki_auto_docking:/root/sirius/sirius_ws/install/kobuki_ros_interfaces:/root/sirius/sirius_ws/install/kobuki_description:/root/sirius/sirius_ws/install/kobuki_core:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/rtabmap/lib:/root/Pose_waypointmaker/install/urg_node2/lib:/root/Pose_waypointmaker/install/urg_node/lib:/root/Pose_waypointmaker/src/install/urg_node2/lib:/root/Pose_waypointmaker/install/rtabmap_ros/lib:/root/Pose_waypointmaker/install/realsense2_camera/lib:/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib:/root/sirius/sirius_ws/install/urg_node/lib:/root/sirius/sirius_ws/install/urg_node_msgs/lib:/root/sirius/sirius_ws/install/urg_c/lib:/root/sirius/sirius_ws/install/laser_proc/lib:/root/sirius/sirius_ws/install/kobuki_velocity_smoother/lib:/root/sirius/sirius_ws/install/kobuki_safety_controller/lib:/root/sirius/sirius_ws/install/kobuki_node/lib:/root/sirius/sirius_ws/install/kobuki_keyop/lib:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib:/root/sirius/sirius_ws/install/kobuki_core/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /root/Pose_waypointmaker/build/rtabmap_ros
+[4.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtabmap_ros)
+[4.210s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros' for CMake module files
+[4.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Pose_waypointmaker/build/rtabmap_ros' returned '0': CMAKE_PREFIX_PATH=/root/Pose_waypointmaker/install/rtabmap:/root/Pose_waypointmaker/install/urg_node2:/root/Pose_waypointmaker/install/urg_node:/root/Pose_waypointmaker/src/install/urg_node2:/root/Pose_waypointmaker/install/rtabmap_ros:/root/Pose_waypointmaker/install/realsense2_description:/root/Pose_waypointmaker/install/realsense2_camera:/root/Pose_waypointmaker/install/realsense2_camera_msgs:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2:/root/sirius/sirius_ws/install/urg_node:/root/sirius/sirius_ws/install/urg_node_msgs:/root/sirius/sirius_ws/install/urg_c:/root/sirius/sirius_ws/install/turtlebot3:/root/sirius/sirius_ws/install/turtlebot3_bringup:/root/sirius/sirius_ws/install/turtlebot3_node:/root/sirius/sirius_ws/install/turtlebot3_navigation2:/root/sirius/sirius_ws/install/turtlebot3_description:/root/sirius/sirius_ws/install/turtlebot3_cartographer:/root/sirius/sirius_ws/install/laser_proc:/root/sirius/sirius_ws/install/kobuki_velocity_smoother:/root/sirius/sirius_ws/install/kobuki_ros:/root/sirius/sirius_ws/install/kobuki_safety_controller:/root/sirius/sirius_ws/install/kobuki_random_walker:/root/sirius/sirius_ws/install/kobuki_node:/root/sirius/sirius_ws/install/kobuki_keyop:/root/sirius/sirius_ws/install/kobuki_bumper2pc:/root/sirius/sirius_ws/install/kobuki_auto_docking:/root/sirius/sirius_ws/install/kobuki_ros_interfaces:/root/sirius/sirius_ws/install/kobuki_description:/root/sirius/sirius_ws/install/kobuki_core:/root/Pose_waypointmaker/install/pifpaf_navi:/root/Pose_waypointmaker/install/tf2_pifpaf:/root/Pose_waypointmaker/install/ros2_pifpaf:/root/sirius/sirius_ws/install/turtlebot3_teleop:/root/sirius/sirius_ws/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/root/Pose_waypointmaker/install/rtabmap/lib:/root/Pose_waypointmaker/install/urg_node2/lib:/root/Pose_waypointmaker/install/urg_node/lib:/root/Pose_waypointmaker/src/install/urg_node2/lib:/root/Pose_waypointmaker/install/rtabmap_ros/lib:/root/Pose_waypointmaker/install/realsense2_camera/lib:/root/Pose_waypointmaker/install/realsense2_camera_msgs/lib:/root/Pose_waypointmaker/install/openpifpaf_ros2_msgs_v2/lib:/root/sirius/sirius_ws/install/urg_node/lib:/root/sirius/sirius_ws/install/urg_node_msgs/lib:/root/sirius/sirius_ws/install/urg_c/lib:/root/sirius/sirius_ws/install/laser_proc/lib:/root/sirius/sirius_ws/install/kobuki_velocity_smoother/lib:/root/sirius/sirius_ws/install/kobuki_safety_controller/lib:/root/sirius/sirius_ws/install/kobuki_node/lib:/root/sirius/sirius_ws/install/kobuki_keyop/lib:/root/sirius/sirius_ws/install/kobuki_ros_interfaces/lib:/root/sirius/sirius_ws/install/kobuki_core/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/11.6.0/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /root/Pose_waypointmaker/build/rtabmap_ros
+[4.211s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros' for CMake config files
+[4.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_ros', 'cmake_prefix_path')
+[4.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/cmake_prefix_path.ps1'
+[4.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/cmake_prefix_path.dsv'
+[4.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/cmake_prefix_path.sh'
+[4.215s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros/lib'
+[4.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_ros', 'ld_library_path_lib')
+[4.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/ld_library_path_lib.ps1'
+[4.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/ld_library_path_lib.dsv'
+[4.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/ld_library_path_lib.sh'
+[4.217s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros/bin'
+[4.217s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros/lib/pkgconfig/rtabmap_ros.pc'
+[4.217s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages'
+[4.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_ros', 'pythonpath')
+[4.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/pythonpath.ps1'
+[4.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/pythonpath.dsv'
+[4.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/pythonpath.sh'
+[4.219s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros/bin'
+[4.221s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/package.ps1'
+[4.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/package.dsv'
+[4.221s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/package.sh'
+[4.222s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/package.bash'
+[4.222s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/package.zsh'
+[4.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/rtabmap_ros/share/colcon-core/packages/rtabmap_ros)
+[6.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtabmap_ros)
+[6.039s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros' for CMake module files
+[6.041s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros' for CMake config files
+[6.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_ros', 'cmake_prefix_path')
+[6.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/cmake_prefix_path.ps1'
+[6.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/cmake_prefix_path.dsv'
+[6.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/cmake_prefix_path.sh'
+[6.052s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros/lib'
+[6.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_ros', 'ld_library_path_lib')
+[6.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/ld_library_path_lib.ps1'
+[6.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/ld_library_path_lib.dsv'
+[6.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/ld_library_path_lib.sh'
+[6.058s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros/bin'
+[6.059s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros/lib/pkgconfig/rtabmap_ros.pc'
+[6.059s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros/lib/python3.8/site-packages'
+[6.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtabmap_ros', 'pythonpath')
+[6.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/pythonpath.ps1'
+[6.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/pythonpath.dsv'
+[6.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/hook/pythonpath.sh'
+[6.064s] Level 1:colcon.colcon_core.environment:checking '/root/Pose_waypointmaker/install/rtabmap_ros/bin'
+[6.066s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/package.ps1'
+[6.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/package.dsv'
+[6.068s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/package.sh'
+[6.069s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/package.bash'
+[6.069s] INFO:colcon.colcon_core.shell:Creating package script '/root/Pose_waypointmaker/install/rtabmap_ros/share/rtabmap_ros/package.zsh'
+[6.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Pose_waypointmaker/install/rtabmap_ros/share/colcon-core/packages/rtabmap_ros)
+[6.070s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.071s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.071s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.071s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.080s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.080s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.080s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.080s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.088s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6.089s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.091s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Pose_waypointmaker/install/local_setup.ps1'
+[6.092s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Pose_waypointmaker/install/_local_setup_util_ps1.py'
+[6.093s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Pose_waypointmaker/install/setup.ps1'
+[6.097s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Pose_waypointmaker/install/local_setup.sh'
+[6.098s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Pose_waypointmaker/install/_local_setup_util_sh.py'
+[6.098s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Pose_waypointmaker/install/setup.sh'
+[6.101s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Pose_waypointmaker/install/local_setup.bash'
+[6.101s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Pose_waypointmaker/install/setup.bash'
+[6.104s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Pose_waypointmaker/install/local_setup.zsh'
+[6.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Pose_waypointmaker/install/setup.zsh'
